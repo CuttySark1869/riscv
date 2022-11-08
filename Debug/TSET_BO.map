@@ -1,0 +1,2974 @@
+Archive member included to satisfy reference by file (symbol)
+
+../lib\libteramic-dsc28034-segger_lib_imc.a(compilerasmops_rv.o)
+                              ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o (__riscv_save_12)
+../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+                              ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o (__subdf3)
+../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+                              ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o (__udivdi3)
+../lib\libteramic-dsc28034-segger_lib_imc.a(strasmops_rv.o)
+                              ./rt-thread/src/kservice.o (strlen)
+../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+                              ./rt-thread/src/object.o (strncmp)
+../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+                              ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o) (malloc)
+../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+                              ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o) (tolower)
+../lib\libteramic-dsc28034-segger_lib_imc.a(sortops.o)
+                              ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o) (bsearch)
+../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+                              ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o) (__SEGGER_RTL_string_list_encode)
+../lib\libteramic-dsc28034-segger_lib_imc.a(errno.o)
+                              ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o) (__SEGGER_RTL_X_errno_addr)
+../lib\libDSC28034_init_call.a(DSC28034_init_call.o)
+                              ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o (OSC_LDO_cal)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .tdata.begin   0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .tdata.end     0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .tbss.end      0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.printf_  0x0000000000000000       0x36 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._vsnprintf
+                0x0000000000000000      0x67c ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._out_char
+                0x0000000000000000        0xc ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.sprintf_
+                0x0000000000000000       0x32 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._out_buffer
+                0x0000000000000000        0xc ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.snprintf_
+                0x0000000000000000       0x30 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.vprintf_
+                0x0000000000000000       0x2e ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.vsnprintf_
+                0x0000000000000000       0x1c ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.fctprintf
+                0x0000000000000000       0x34 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._out_fct
+                0x0000000000000000        0xa ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.metal_tty_putc
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._putchar
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.thread_entry
+                0x0000000000000000        0x6 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._clean_bss
+                0x0000000000000000       0x3c ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._init_data
+                0x0000000000000000       0x2e ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._init_data_l1
+                0x0000000000000000       0x2e ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._init_data_m0
+                0x0000000000000000       0x2e ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._init_data_m1
+                0x0000000000000000       0x2e ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._DisableDog
+                0x0000000000000000       0x16 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._EnableDog
+                0x0000000000000000       0x16 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.memcpy   0x0000000000000000       0x44 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.abs      0x0000000000000000        0x6 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.labs     0x0000000000000000        0x6 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.read_reg32
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text.write_reg32
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._out_null
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._ntoa_long_long
+                0x0000000000000000       0xca ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._ntoa_long
+                0x0000000000000000       0x8e ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._ftoa    0x0000000000000000      0x468 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._etoa    0x0000000000000000      0x4ba ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._ntoa_format
+                0x0000000000000000      0x202 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text._out_rev
+                0x0000000000000000       0xb8 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .rodata._ftoa.pow10
+                0x0000000000000000       0x50 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .rodata.str1.1
+                0x0000000000000000       0x12 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .llvm_addrsig  0x0000000000000000       0x1e ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_ECap1Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_CpuTimer0Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_CpuTimer1Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_CpuTimer2Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_EQep1Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_EQep2Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_AdcRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_AdcResult
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_PieCtrlRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_PieVectTable
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_XIntruptRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_SpiaRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_SpibRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_SciaRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_I2caRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_EPwm1Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_EPwm2Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_EPwm3Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_EPwm4Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_EPwm5Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_EPwm6Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_EPwm7Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_GpioCtrlRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_GpioDataRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_GpioIntRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_SysCtrlRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_Comp1Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_Comp2Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_Comp3Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_DmaRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_FlashRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_CsmPwl
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_PieEmuRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_LinaRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_ECanaRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_ECanaLAMRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_ECanaMOTSRegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_ECanaMOTORegs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_ECanaMboxes
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_HRCap1Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .rodata.P_HRCap2Regs
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .ECap1Regs     0x0000000000000000       0x30 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .EQep1Regs     0x0000000000000000       0x64 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .EQep2Regs     0x0000000000000000       0x64 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .AdcRegs       0x0000000000000000       0x9c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .AdcResult     0x0000000000000000       0x40 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .XIntruptRegs  0x0000000000000000       0x18 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .SpiaRegs      0x0000000000000000       0x30 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .SpibRegs      0x0000000000000000       0x30 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .SciaRegs      0x0000000000000000       0x34 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .I2caRegs      0x0000000000000000       0x3c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .EPwm1Regs     0x0000000000000000       0xe8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .EPwm2Regs     0x0000000000000000       0xe8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .EPwm3Regs     0x0000000000000000       0xe8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .EPwm4Regs     0x0000000000000000       0xe8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .EPwm5Regs     0x0000000000000000       0xe8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .EPwm6Regs     0x0000000000000000       0xe8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .EPwm7Regs     0x0000000000000000       0xe8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .GpioIntRegs   0x0000000000000000       0x10 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .Comp1Regs     0x0000000000000000       0x28 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .Comp2Regs     0x0000000000000000       0x28 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .Comp3Regs     0x0000000000000000       0x28 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .DmaRegs       0x0000000000000000      0x400 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .FlashRegs     0x0000000000000000       0xbc ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .PieEmuRegs    0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .LinaRegs      0x0000000000000000       0x64 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .ECanaRegs     0x0000000000000000       0x68 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .ECanaLAMRegs  0x0000000000000000       0x80 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .ECanaMOTSRegs
+                0x0000000000000000       0x80 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .ECanaMOTORegs
+                0x0000000000000000       0x80 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .ECAN_MBOXES   0x0000000000000000      0x200 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .HRCap1Regs    0x0000000000000000       0x6c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .HRCap2Regs    0x0000000000000000       0x6c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .ifr_register  0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .text.InitAdc  0x0000000000000000       0x22 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .text.InitAdcAio
+                0x0000000000000000       0x6e ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .text.AdcChanSelect
+                0x0000000000000000       0xbc ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .text.AdcConversion
+                0x0000000000000000      0x28e ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .debug_loc     0x0000000000000000       0x9d ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .debug_abbrev  0x0000000000000000       0xa3 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .debug_info    0x0000000000000000       0xf1 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .debug_ranges  0x0000000000000000       0x28 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .debug_str     0x0000000000000000      0x16e ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .debug_frame   0x0000000000000000       0x60 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .debug_line    0x0000000000000000      0x46b ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .llvm_addrsig  0x0000000000000000        0x6 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+ .text.init_call
+                0x0000000000000000       0x14 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+ .llvm_addrsig  0x0000000000000000        0x1 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .text.InitCompGpio
+                0x0000000000000000       0x92 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .text.InitComp1Gpio
+                0x0000000000000000       0x44 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .text.InitComp2Gpio
+                0x0000000000000000       0x5a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .text.InitComp3Gpio
+                0x0000000000000000       0x42 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .debug_abbrev  0x0000000000000000       0x81 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .debug_info    0x0000000000000000       0xa1 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .debug_ranges  0x0000000000000000       0x28 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .debug_str     0x0000000000000000      0x115 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .debug_frame   0x0000000000000000       0x5c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .debug_line    0x0000000000000000      0x1dc ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .llvm_addrsig  0x0000000000000000        0x1 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+ .llvm_addrsig  0x0000000000000000        0x3 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.INT13_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.INT14_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.DATALOG_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.RTOSINT_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.EMUINT_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.NMI_ISR  0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.ILLEGAL_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER1_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER2_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER3_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER4_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER5_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER6_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER7_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER8_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER9_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER10_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER11_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.USER12_ISR
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.EMPTY_ISR
+                0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text.PIE_RESERVED
+                0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .text.InitECan
+                0x0000000000000000        0x8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .text.InitECana
+                0x0000000000000000       0xf4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .text.InitECanGpio
+                0x0000000000000000       0x56 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .text.InitECanaGpio
+                0x0000000000000000       0x56 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .debug_loc     0x0000000000000000       0xc0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .debug_abbrev  0x0000000000000000      0x10f ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .debug_info    0x0000000000000000     0x27da ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .debug_ranges  0x0000000000000000       0x28 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .debug_str     0x0000000000000000      0xf30 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .debug_frame   0x0000000000000000       0x54 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .debug_line    0x0000000000000000      0x3b3 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .llvm_addrsig  0x0000000000000000        0x6 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .text.InitECap1Gpio
+                0x0000000000000000       0x36 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .text.InitECapGpio
+                0x0000000000000000       0x36 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .debug_abbrev  0x0000000000000000       0x5e ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .debug_info    0x0000000000000000       0x60 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .debug_ranges  0x0000000000000000       0x18 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .debug_str     0x0000000000000000       0xf9 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .debug_frame   0x0000000000000000       0x34 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .debug_line    0x0000000000000000       0xf4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .llvm_addrsig  0x0000000000000000        0x1 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .text.InitEPwmGpio
+                0x0000000000000000      0x1a6 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .text.InitEPwm1Gpio
+                0x0000000000000000       0x3e ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .text.InitEPwm2Gpio
+                0x0000000000000000       0x42 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .text.InitEPwm3Gpio
+                0x0000000000000000       0x46 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .text.InitEPwm4Gpio
+                0x0000000000000000       0x46 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .text.InitEPwm5Gpio
+                0x0000000000000000       0x4c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .text.InitEPwm6Gpio
+                0x0000000000000000       0x52 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .text.InitEPwm7Gpio
+                0x0000000000000000       0x44 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .text.InitEPwmSyncGpio
+                0x0000000000000000       0x3e ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .text.InitTzGpio
+                0x0000000000000000       0x70 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .debug_abbrev  0x0000000000000000       0x8e ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .debug_info    0x0000000000000000      0x16d ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .debug_ranges  0x0000000000000000       0x58 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .debug_str     0x0000000000000000      0x169 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .debug_frame   0x0000000000000000       0xb4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .debug_line    0x0000000000000000      0x451 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .llvm_addrsig  0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .text.InitEQepGpio
+                0x0000000000000000        0x8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .text.InitEQep1Gpio
+                0x0000000000000000       0x94 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .debug_abbrev  0x0000000000000000       0x52 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .debug_info    0x0000000000000000       0x53 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .debug_ranges  0x0000000000000000       0x18 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .debug_str     0x0000000000000000       0xf9 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .debug_frame   0x0000000000000000       0x34 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .debug_line    0x0000000000000000      0x102 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .llvm_addrsig  0x0000000000000000        0x1 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+ .text.InitGpio
+                0x0000000000000000       0x42 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+ .debug_abbrev  0x0000000000000000       0x2c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+ .debug_info    0x0000000000000000       0x38 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+ .debug_str     0x0000000000000000       0xe7 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+ .debug_frame   0x0000000000000000       0x24 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+ .debug_line    0x0000000000000000       0xeb ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+ .llvm_addrsig  0x0000000000000000        0x1 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+ .text.InitI2CGpio
+                0x0000000000000000       0x42 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+ .debug_abbrev  0x0000000000000000       0x2c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+ .debug_info    0x0000000000000000       0x38 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+ .debug_str     0x0000000000000000       0xe9 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+ .debug_frame   0x0000000000000000       0x24 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+ .debug_line    0x0000000000000000       0xc4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+ .llvm_addrsig  0x0000000000000000        0x1 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .text.InitLin  0x0000000000000000        0x8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .text.InitLina
+                0x0000000000000000      0x110 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .text.GenIdParity
+                0x0000000000000000       0x44 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .text.InitLinGpio
+                0x0000000000000000       0x5c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .text.InitLinaGpio
+                0x0000000000000000       0x5c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .sbss          0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .debug_loc     0x0000000000000000       0x1b ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .debug_abbrev  0x0000000000000000       0xd6 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .debug_info    0x0000000000000000       0xe5 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .debug_ranges  0x0000000000000000       0x30 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .debug_str     0x0000000000000000      0x132 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .debug_frame   0x0000000000000000       0x64 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .debug_line    0x0000000000000000      0x328 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .llvm_addrsig  0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_OTP.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_OTP.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_OTP.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_OTP.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_OTP.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+ .text.EnableInterrupts
+                0x0000000000000000       0x12 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+ .llvm_addrsig  0x0000000000000000        0x1 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+ .llvm_addrsig  0x0000000000000000       0x54 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .text.InitSci  0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .text.InitSciGpio
+                0x0000000000000000       0x56 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .text.InitSciaGpio
+                0x0000000000000000       0x56 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .debug_abbrev  0x0000000000000000       0x76 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .debug_info    0x0000000000000000       0x71 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .debug_ranges  0x0000000000000000       0x20 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .debug_str     0x0000000000000000       0xfe ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .debug_frame   0x0000000000000000       0x44 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .debug_line    0x0000000000000000      0x124 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .llvm_addrsig  0x0000000000000000        0x1 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .text.InitSpi  0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .text.InitSpiGpio
+                0x0000000000000000        0x8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .text.InitSpiaGpio
+                0x0000000000000000       0x8a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .debug_abbrev  0x0000000000000000       0x52 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .debug_info    0x0000000000000000       0x64 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .debug_ranges  0x0000000000000000       0x20 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .debug_str     0x0000000000000000       0xfe ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .comment       0x0000000000000000       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .debug_frame   0x0000000000000000       0x44 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .debug_line    0x0000000000000000      0x11a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .llvm_addrsig  0x0000000000000000        0x1 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+ .text          0x0000000000000000        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .text.DisableDog
+                0x0000000000000000       0x16 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .text.InitFlash
+                0x0000000000000000       0x1e ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .text.ServiceDog
+                0x0000000000000000       0x1e ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .text.EnableDog
+                0x0000000000000000       0x16 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .text.CsmUnlock
+                0x0000000000000000       0x42 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .text.IntOsc1Sel
+                0x0000000000000000       0x38 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .text.IntOsc2Sel
+                0x0000000000000000       0x42 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .text.ExtOscSel
+                0x0000000000000000       0x56 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .llvm_addrsig  0x0000000000000000        0x6 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .text          0x0000000000000000        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/_DSP2803x_usDelay.o
+ .text          0x0000000000000000        0xc ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/disable_interrupt.o
+ .debug_info    0x0000000000000000      0x11c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/disable_interrupt.o
+ .debug_abbrev  0x0000000000000000       0x21 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/disable_interrupt.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/disable_interrupt.o
+ .debug_line    0x0000000000000000       0x90 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/disable_interrupt.o
+ .text          0x0000000000000000        0xe ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/enable_interrupt.o
+ .debug_info    0x0000000000000000      0x11a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/enable_interrupt.o
+ .debug_abbrev  0x0000000000000000       0x21 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/enable_interrupt.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/enable_interrupt.o
+ .debug_line    0x0000000000000000       0x91 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/enable_interrupt.o
+ .text          0x0000000000000000        0xa ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_set.o
+ .debug_info    0x0000000000000000      0x108 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_set.o
+ .debug_abbrev  0x0000000000000000       0x21 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_set.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_set.o
+ .debug_line    0x0000000000000000       0x80 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_set.o
+ .text          0x0000000000000000        0xa ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_set.o
+ .debug_info    0x0000000000000000      0x108 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_set.o
+ .debug_abbrev  0x0000000000000000       0x21 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_set.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_set.o
+ .debug_line    0x0000000000000000       0x80 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_set.o
+ .text          0x0000000000000000        0x2 ./src/adc.o
+ .text.ADC_Init
+                0x0000000000000000       0x8a ./src/adc.o
+ .debug_abbrev  0x0000000000000000       0x2c ./src/adc.o
+ .debug_info    0x0000000000000000       0x38 ./src/adc.o
+ .debug_str     0x0000000000000000       0xa3 ./src/adc.o
+ .comment       0x0000000000000000       0x6a ./src/adc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./src/adc.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./src/adc.o
+ .debug_frame   0x0000000000000000       0x24 ./src/adc.o
+ .debug_line    0x0000000000000000       0xcb ./src/adc.o
+ .llvm_addrsig  0x0000000000000000        0x1 ./src/adc.o
+ .text          0x0000000000000000        0x2 ./src/epwm.o
+ .text.pwm1_gpio_init
+                0x0000000000000000       0x3e ./src/epwm.o
+ .text.pwm1_config
+                0x0000000000000000      0x102 ./src/epwm.o
+ .debug_abbrev  0x0000000000000000       0x2a ./src/epwm.o
+ .debug_info    0x0000000000000000       0x49 ./src/epwm.o
+ .debug_ranges  0x0000000000000000       0x18 ./src/epwm.o
+ .debug_str     0x0000000000000000       0xb6 ./src/epwm.o
+ .comment       0x0000000000000000       0x6a ./src/epwm.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./src/epwm.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./src/epwm.o
+ .debug_frame   0x0000000000000000       0x34 ./src/epwm.o
+ .debug_line    0x0000000000000000      0x143 ./src/epwm.o
+ .llvm_addrsig  0x0000000000000000        0x2 ./src/epwm.o
+ .text          0x0000000000000000        0x2 ./src/main.o
+ .comment       0x0000000000000000       0x6a ./src/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./src/main.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./src/main.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./src/main.o
+ .text          0x0000000000000000        0x2 ./src/sci.o
+ .text.Scia_Config
+                0x0000000000000000       0xa2 ./src/sci.o
+ .text.Scia_Print
+                0x0000000000000000       0x26 ./src/sci.o
+ .rodata.cst16  0x0000000000000000       0x10 ./src/sci.o
+ .debug_loc     0x0000000000000000       0xc8 ./src/sci.o
+ .debug_abbrev  0x0000000000000000       0x78 ./src/sci.o
+ .debug_info    0x0000000000000000       0xf4 ./src/sci.o
+ .debug_ranges  0x0000000000000000       0x18 ./src/sci.o
+ .debug_str     0x0000000000000000      0x11a ./src/sci.o
+ .comment       0x0000000000000000       0x6a ./src/sci.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./src/sci.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./src/sci.o
+ .debug_frame   0x0000000000000000       0x34 ./src/sci.o
+ .debug_line    0x0000000000000000      0x1f1 ./src/sci.o
+ .llvm_addrsig  0x0000000000000000        0x2 ./src/sci.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/clock.o
+ .text.rt_tick_sethook
+                0x0000000000000000        0xa ./rt-thread/src/clock.o
+ .text.rt_tick_set
+                0x0000000000000000       0x26 ./rt-thread/src/clock.o
+ .text.rt_tick_from_millisecond
+                0x0000000000000000       0x32 ./rt-thread/src/clock.o
+ .text.rt_tick_get_millisecond
+                0x0000000000000000        0xa ./rt-thread/src/clock.o
+ .llvm_addrsig  0x0000000000000000        0x2 ./rt-thread/src/clock.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/components.o
+ .text.rti_start
+                0x0000000000000000        0x4 ./rt-thread/src/components.o
+ .text.rt_components_init
+                0x0000000000000000       0x2e ./rt-thread/src/components.o
+ .text.entry    0x0000000000000000       0x1a ./rt-thread/src/components.o
+ .rti_fn.0      0x0000000000000000        0x4 ./rt-thread/src/components.o
+ .llvm_addrsig  0x0000000000000000       0x12 ./rt-thread/src/components.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/device.o
+ .text.rt_device_unregister
+                0x0000000000000000       0x90 ./rt-thread/src/device.o
+ .text.rt_device_create
+                0x0000000000000000       0x38 ./rt-thread/src/device.o
+ .text.rt_device_destroy
+                0x0000000000000000       0x94 ./rt-thread/src/device.o
+ .text.rt_device_init
+                0x0000000000000000       0x70 ./rt-thread/src/device.o
+ .text.rt_device_read
+                0x0000000000000000       0x9c ./rt-thread/src/device.o
+ .text.rt_device_control
+                0x0000000000000000       0x7e ./rt-thread/src/device.o
+ .text.rt_device_set_rx_indicate
+                0x0000000000000000       0x62 ./rt-thread/src/device.o
+ .text.rt_device_set_tx_complete
+                0x0000000000000000       0x62 ./rt-thread/src/device.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./rt-thread/src/device.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/idle.o
+ .text.rt_thread_idle_sethook
+                0x0000000000000000       0x50 ./rt-thread/src/idle.o
+ .text.rt_thread_idle_delhook
+                0x0000000000000000       0x54 ./rt-thread/src/idle.o
+ .text.rt_thread_idle_gethandler
+                0x0000000000000000        0xa ./rt-thread/src/idle.o
+ .llvm_addrsig  0x0000000000000000        0x8 ./rt-thread/src/idle.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/ipc.o
+ .text.rt_sem_init
+                0x0000000000000000       0x9a ./rt-thread/src/ipc.o
+ .text.rt_sem_detach
+                0x0000000000000000       0xca ./rt-thread/src/ipc.o
+ .text.rt_sem_create
+                0x0000000000000000       0xc4 ./rt-thread/src/ipc.o
+ .text.rt_sem_delete
+                0x0000000000000000      0x118 ./rt-thread/src/ipc.o
+ .text.rt_sem_take
+                0x0000000000000000      0x25e ./rt-thread/src/ipc.o
+ .text.rt_sem_trytake
+                0x0000000000000000        0xa ./rt-thread/src/ipc.o
+ .text.rt_sem_release
+                0x0000000000000000       0xd0 ./rt-thread/src/ipc.o
+ .text.rt_sem_control
+                0x0000000000000000       0xc4 ./rt-thread/src/ipc.o
+ .text.rt_mutex_detach
+                0x0000000000000000       0xca ./rt-thread/src/ipc.o
+ .text.rt_mutex_create
+                0x0000000000000000       0x88 ./rt-thread/src/ipc.o
+ .text.rt_mutex_delete
+                0x0000000000000000      0x118 ./rt-thread/src/ipc.o
+ .text.rt_mutex_trytake
+                0x0000000000000000        0xa ./rt-thread/src/ipc.o
+ .text.rt_mutex_control
+                0x0000000000000000       0x5e ./rt-thread/src/ipc.o
+ .text.rt_event_init
+                0x0000000000000000       0x76 ./rt-thread/src/ipc.o
+ .text.rt_event_detach
+                0x0000000000000000       0xca ./rt-thread/src/ipc.o
+ .text.rt_event_create
+                0x0000000000000000       0xa2 ./rt-thread/src/ipc.o
+ .text.rt_event_delete
+                0x0000000000000000      0x118 ./rt-thread/src/ipc.o
+ .text.rt_event_send
+                0x0000000000000000      0x13a ./rt-thread/src/ipc.o
+ .text.rt_event_recv
+                0x0000000000000000      0x2e8 ./rt-thread/src/ipc.o
+ .text.rt_event_control
+                0x0000000000000000       0xc2 ./rt-thread/src/ipc.o
+ .text.rt_mb_init
+                0x0000000000000000       0x8e ./rt-thread/src/ipc.o
+ .text.rt_mb_detach
+                0x0000000000000000      0x104 ./rt-thread/src/ipc.o
+ .text.rt_mb_create
+                0x0000000000000000       0xdc ./rt-thread/src/ipc.o
+ .text.rt_mb_delete
+                0x0000000000000000      0x15e ./rt-thread/src/ipc.o
+ .text.rt_mb_send_wait
+                0x0000000000000000      0x30a ./rt-thread/src/ipc.o
+ .text.rt_mb_send
+                0x0000000000000000        0xa ./rt-thread/src/ipc.o
+ .text.rt_mb_urgent
+                0x0000000000000000       0xf4 ./rt-thread/src/ipc.o
+ .text.rt_mb_recv
+                0x0000000000000000      0x334 ./rt-thread/src/ipc.o
+ .text.rt_mb_control
+                0x0000000000000000      0x104 ./rt-thread/src/ipc.o
+ .text.rt_mq_init
+                0x0000000000000000       0xd0 ./rt-thread/src/ipc.o
+ .text.rt_mq_detach
+                0x0000000000000000      0x10a ./rt-thread/src/ipc.o
+ .text.rt_mq_create
+                0x0000000000000000      0x11e ./rt-thread/src/ipc.o
+ .text.rt_mq_delete
+                0x0000000000000000      0x166 ./rt-thread/src/ipc.o
+ .text.rt_mq_send_wait
+                0x0000000000000000      0x394 ./rt-thread/src/ipc.o
+ .text.rt_mq_send
+                0x0000000000000000        0xa ./rt-thread/src/ipc.o
+ .text.rt_mq_urgent
+                0x0000000000000000      0x164 ./rt-thread/src/ipc.o
+ .text.rt_mq_recv
+                0x0000000000000000      0x3ac ./rt-thread/src/ipc.o
+ .text.rt_mq_control
+                0x0000000000000000      0x128 ./rt-thread/src/ipc.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./rt-thread/src/ipc.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/irq.o
+ .text.rt_interrupt_enter_sethook
+                0x0000000000000000        0xa ./rt-thread/src/irq.o
+ .text.rt_interrupt_leave_sethook
+                0x0000000000000000        0xa ./rt-thread/src/irq.o
+ .llvm_addrsig  0x0000000000000000        0x1 ./rt-thread/src/irq.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/kservice.o
+ .text.rt_hw_us_delay
+                0x0000000000000000       0x10 ./rt-thread/src/kservice.o
+ .text.rt_strerror
+                0x0000000000000000       0x28 ./rt-thread/src/kservice.o
+ .text.rt_get_errno
+                0x0000000000000000       0x36 ./rt-thread/src/kservice.o
+ .text._rt_errno
+                0x0000000000000000       0x38 ./rt-thread/src/kservice.o
+ .text.rt_memcpy
+                0x0000000000000000       0x72 ./rt-thread/src/kservice.o
+ .text.rt_memmove
+                0x0000000000000000       0x46 ./rt-thread/src/kservice.o
+ .text.rt_memcmp
+                0x0000000000000000       0x1c ./rt-thread/src/kservice.o
+ .text.rt_strnlen
+                0x0000000000000000       0x2a ./rt-thread/src/kservice.o
+ .text.rt_strdup
+                0x0000000000000000       0x3c ./rt-thread/src/kservice.o
+ .text.rt_snprintf
+                0x0000000000000000       0x20 ./rt-thread/src/kservice.o
+ .text.rt_vsprintf
+                0x0000000000000000       0x12 ./rt-thread/src/kservice.o
+ .text.rt_console_get_device
+                0x0000000000000000        0xa ./rt-thread/src/kservice.o
+ .text.rt_kputs
+                0x0000000000000000       0x54 ./rt-thread/src/kservice.o
+ .text.rt_malloc_sethook
+                0x0000000000000000        0xa ./rt-thread/src/kservice.o
+ .text.rt_free_sethook
+                0x0000000000000000        0xa ./rt-thread/src/kservice.o
+ .text.rt_realloc
+                0x0000000000000000       0x9c ./rt-thread/src/kservice.o
+ .text.rt_calloc
+                0x0000000000000000       0x32 ./rt-thread/src/kservice.o
+ .text.rt_memory_info
+                0x0000000000000000       0xae ./rt-thread/src/kservice.o
+ .text.rt_malloc_align
+                0x0000000000000000       0x48 ./rt-thread/src/kservice.o
+ .text.rt_free_align
+                0x0000000000000000       0x10 ./rt-thread/src/kservice.o
+ .text.rt_assert_set_hook
+                0x0000000000000000        0xa ./rt-thread/src/kservice.o
+ .rodata.rt_errno_strs
+                0x0000000000000000       0x30 ./rt-thread/src/kservice.o
+ .llvm_addrsig  0x0000000000000000        0x6 ./rt-thread/src/kservice.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/mem.o
+ .text.rt_smem_detach
+                0x0000000000000000       0x90 ./rt-thread/src/mem.o
+ .text.rt_smem_realloc
+                0x0000000000000000      0x1cc ./rt-thread/src/mem.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./rt-thread/src/mem.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/mempool.o
+ .text.rt_mp_alloc_sethook
+                0x0000000000000000        0xa ./rt-thread/src/mempool.o
+ .text.rt_mp_free_sethook
+                0x0000000000000000        0xa ./rt-thread/src/mempool.o
+ .text.rt_mp_init
+                0x0000000000000000      0x10c ./rt-thread/src/mempool.o
+ .text.rt_mp_detach
+                0x0000000000000000       0xca ./rt-thread/src/mempool.o
+ .text.rt_mp_create
+                0x0000000000000000      0x122 ./rt-thread/src/mempool.o
+ .text.rt_mp_delete
+                0x0000000000000000      0x126 ./rt-thread/src/mempool.o
+ .text.rt_mp_alloc
+                0x0000000000000000      0x1b6 ./rt-thread/src/mempool.o
+ .text.rt_mp_free
+                0x0000000000000000       0x90 ./rt-thread/src/mempool.o
+ .sbss          0x0000000000000000        0x8 ./rt-thread/src/mempool.o
+ .rodata.str1.1
+                0x0000000000000000      0x17d ./rt-thread/src/mempool.o
+ .debug_loc     0x0000000000000000      0x563 ./rt-thread/src/mempool.o
+ .debug_abbrev  0x0000000000000000      0x298 ./rt-thread/src/mempool.o
+ .debug_info    0x0000000000000000      0xb7f ./rt-thread/src/mempool.o
+ .debug_ranges  0x0000000000000000       0x78 ./rt-thread/src/mempool.o
+ .debug_str     0x0000000000000000      0x6c7 ./rt-thread/src/mempool.o
+ .comment       0x0000000000000000       0x6a ./rt-thread/src/mempool.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/mempool.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./rt-thread/src/mempool.o
+ .debug_frame   0x0000000000000000      0x104 ./rt-thread/src/mempool.o
+ .debug_line    0x0000000000000000      0x85c ./rt-thread/src/mempool.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./rt-thread/src/mempool.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/object.o
+ .text.rt_object_attach_sethook
+                0x0000000000000000        0xa ./rt-thread/src/object.o
+ .text.rt_object_detach_sethook
+                0x0000000000000000        0xa ./rt-thread/src/object.o
+ .text.rt_object_trytake_sethook
+                0x0000000000000000        0xa ./rt-thread/src/object.o
+ .text.rt_object_take_sethook
+                0x0000000000000000        0xa ./rt-thread/src/object.o
+ .text.rt_object_put_sethook
+                0x0000000000000000        0xa ./rt-thread/src/object.o
+ .text.rt_object_get_information
+                0x0000000000000000       0x2e ./rt-thread/src/object.o
+ .text.rt_object_get_length
+                0x0000000000000000       0x4a ./rt-thread/src/object.o
+ .text.rt_object_get_pointers
+                0x0000000000000000       0x64 ./rt-thread/src/object.o
+ .llvm_addrsig  0x0000000000000000        0x2 ./rt-thread/src/object.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/scheduler.o
+ .text.rt_scheduler_sethook
+                0x0000000000000000        0xa ./rt-thread/src/scheduler.o
+ .text.rt_scheduler_switch_sethook
+                0x0000000000000000        0xa ./rt-thread/src/scheduler.o
+ .llvm_addrsig  0x0000000000000000        0x4 ./rt-thread/src/scheduler.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/thread.o
+ .text.rt_thread_suspend_sethook
+                0x0000000000000000        0xa ./rt-thread/src/thread.o
+ .text.rt_thread_resume_sethook
+                0x0000000000000000        0xa ./rt-thread/src/thread.o
+ .text.rt_thread_inited_sethook
+                0x0000000000000000        0xa ./rt-thread/src/thread.o
+ .text.rt_thread_yield
+                0x0000000000000000       0x46 ./rt-thread/src/thread.o
+ .text.rt_thread_delay_until
+                0x0000000000000000      0x108 ./rt-thread/src/thread.o
+ .text.rt_thread_mdelay
+                0x0000000000000000       0x18 ./rt-thread/src/thread.o
+ .text.rt_thread_find
+                0x0000000000000000        0xa ./rt-thread/src/thread.o
+ .llvm_addrsig  0x0000000000000000        0x4 ./rt-thread/src/thread.o
+ .text          0x0000000000000000        0x2 ./rt-thread/src/timer.o
+ .text.rt_timer_enter_sethook
+                0x0000000000000000        0xa ./rt-thread/src/timer.o
+ .text.rt_timer_exit_sethook
+                0x0000000000000000        0xa ./rt-thread/src/timer.o
+ .text.rt_timer_create
+                0x0000000000000000       0x92 ./rt-thread/src/timer.o
+ .text.rt_timer_delete
+                0x0000000000000000       0xbe ./rt-thread/src/timer.o
+ .text.rt_timer_next_timeout_tick
+                0x0000000000000000       0x2c ./rt-thread/src/timer.o
+ .llvm_addrsig  0x0000000000000000        0xa ./rt-thread/src/timer.o
+ .text          0x0000000000000000        0x2 ./rt-thread/libcpu/cpuport.o
+ .text.rt_hw_cpu_shutdown
+                0x0000000000000000       0x4c ./rt-thread/libcpu/cpuport.o
+ .rodata.str1.1
+                0x0000000000000000       0x22 ./rt-thread/libcpu/cpuport.o
+ .llvm_addrsig  0x0000000000000000        0x6 ./rt-thread/libcpu/cpuport.o
+ .text          0x0000000000000000        0x2 ./rt-thread/components/finsh/cmd.o
+ .comment       0x0000000000000000       0x6a ./rt-thread/components/finsh/cmd.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/components/finsh/cmd.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./rt-thread/components/finsh/cmd.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./rt-thread/components/finsh/cmd.o
+ .text          0x0000000000000000        0x2 ./rt-thread/components/finsh/msh.o
+ .comment       0x0000000000000000       0x6a ./rt-thread/components/finsh/msh.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/components/finsh/msh.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./rt-thread/components/finsh/msh.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./rt-thread/components/finsh/msh.o
+ .text          0x0000000000000000        0x2 ./rt-thread/components/finsh/msh_parse.o
+ .text.msh_isint
+                0x0000000000000000       0x4a ./rt-thread/components/finsh/msh_parse.o
+ .text.msh_ishex
+                0x0000000000000000       0x5e ./rt-thread/components/finsh/msh_parse.o
+ .text.msh_strtohex
+                0x0000000000000000       0x5e ./rt-thread/components/finsh/msh_parse.o
+ .debug_loc     0x0000000000000000      0x12d ./rt-thread/components/finsh/msh_parse.o
+ .debug_abbrev  0x0000000000000000       0x90 ./rt-thread/components/finsh/msh_parse.o
+ .debug_info    0x0000000000000000      0x10d ./rt-thread/components/finsh/msh_parse.o
+ .debug_ranges  0x0000000000000000       0x20 ./rt-thread/components/finsh/msh_parse.o
+ .debug_str     0x0000000000000000      0x100 ./rt-thread/components/finsh/msh_parse.o
+ .comment       0x0000000000000000       0x6a ./rt-thread/components/finsh/msh_parse.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/components/finsh/msh_parse.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./rt-thread/components/finsh/msh_parse.o
+ .debug_frame   0x0000000000000000       0x44 ./rt-thread/components/finsh/msh_parse.o
+ .debug_line    0x0000000000000000      0x299 ./rt-thread/components/finsh/msh_parse.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./rt-thread/components/finsh/msh_parse.o
+ .text          0x0000000000000000        0x2 ./rt-thread/components/finsh/shell.o
+ .comment       0x0000000000000000       0x6a ./rt-thread/components/finsh/shell.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/components/finsh/shell.o
+ .riscv.attributes
+                0x0000000000000000       0x26 ./rt-thread/components/finsh/shell.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./rt-thread/components/finsh/shell.o
+ .text          0x0000000000000000        0x2 ./rt-thread/components/drivers/misc/pin.o
+ .text.rt_pin_attach_irq
+                0x0000000000000000       0x76 ./rt-thread/components/drivers/misc/pin.o
+ .text.rt_pin_detach_irq
+                0x0000000000000000       0x58 ./rt-thread/components/drivers/misc/pin.o
+ .text.rt_pin_irq_enable
+                0x0000000000000000       0x62 ./rt-thread/components/drivers/misc/pin.o
+ .text.rt_pin_mode
+                0x0000000000000000       0x4c ./rt-thread/components/drivers/misc/pin.o
+ .text.rt_pin_write
+                0x0000000000000000       0x4c ./rt-thread/components/drivers/misc/pin.o
+ .text.rt_pin_read
+                0x0000000000000000       0x44 ./rt-thread/components/drivers/misc/pin.o
+ .text.rt_pin_get
+                0x0000000000000000       0x62 ./rt-thread/components/drivers/misc/pin.o
+ .llvm_addrsig  0x0000000000000000        0x8 ./rt-thread/components/drivers/misc/pin.o
+ .text          0x0000000000000000        0x2 ./rt-thread/bsp/drv_gpio.o
+ .llvm_addrsig  0x0000000000000000        0xe ./rt-thread/bsp/drv_gpio.o
+ .text          0x0000000000000000        0x2 ./board/board.o
+ .llvm_addrsig  0x0000000000000000        0xc ./board/board.o
+ .text          0x0000000000000000        0x2 ./applications/startup.o
+ .llvm_addrsig  0x0000000000000000        0x0 ./applications/startup.o
+ .text          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(compilerasmops_rv.o)
+ .data          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(compilerasmops_rv.o)
+ .bss           0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(compilerasmops_rv.o)
+ .text          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .data          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .bss           0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__subsf3
+                0x0000000000000000        0xe ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__subdf3
+                0x0000000000000000        0xe ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__addsf3
+                0x0000000000000000      0x190 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__adddf3
+                0x0000000000000000      0x2ba ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__muldf3
+                0x0000000000000000      0x110 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__divsf3
+                0x0000000000000000       0xb6 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__divdf3
+                0x0000000000000000      0x112 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__ltsf2  0x0000000000000000       0x3a ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__ltdf2  0x0000000000000000       0x46 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__lesf2  0x0000000000000000       0x36 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__ledf2  0x0000000000000000       0x46 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__gtsf2  0x0000000000000000       0x32 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__gtdf2  0x0000000000000000       0x46 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__gesf2  0x0000000000000000       0x3e ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__gedf2  0x0000000000000000       0x46 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__eqsf2  0x0000000000000000       0x2c ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__eqdf2  0x0000000000000000       0x34 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__fixdfsi
+                0x0000000000000000       0x52 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__fixsfdi
+                0x0000000000000000       0x86 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__fixdfdi
+                0x0000000000000000       0x90 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__fixunssfsi
+                0x0000000000000000       0x32 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__fixunsdfsi
+                0x0000000000000000       0x32 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__fixunssfdi
+                0x0000000000000000       0x60 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__fixunsdfdi
+                0x0000000000000000       0x60 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__floatsisf
+                0x0000000000000000       0x42 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__floatsidf
+                0x0000000000000000       0x2a ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__floatdisf
+                0x0000000000000000       0x62 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__floatdidf
+                0x0000000000000000       0x80 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__floatunsisf
+                0x0000000000000000       0x32 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__floatunsidf
+                0x0000000000000000       0x24 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__floatundisf
+                0x0000000000000000       0x46 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__floatundidf
+                0x0000000000000000       0x68 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__extendsfdf2
+                0x0000000000000000       0x46 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__truncdfsf2
+                0x0000000000000000       0x86 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__unordsf2
+                0x0000000000000000       0x14 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text.__unorddf2
+                0x0000000000000000       0x20 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .text          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .data          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .bss           0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__SEGGER_RTL_CLZ_U32_compare_alg_inline
+                0x0000000000000000       0x3a ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__SEGGER_RTL_DivU32_Clockwork
+                0x0000000000000000       0x2c ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__SEGGER_RTL_DivU64_Clockwork
+                0x0000000000000000       0x9a ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__c___mulsi3
+                0x0000000000000000       0x28 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__udivmodsi4
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__muldi3
+                0x0000000000000000       0x18 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__c___udivsi3
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__c___umodsi3
+                0x0000000000000000       0x16 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__udivmoddi4
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__udivdi3
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__umoddi3
+                0x0000000000000000       0x18 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__divdi3
+                0x0000000000000000       0x60 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__moddi3
+                0x0000000000000000       0x62 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__c___divsi3
+                0x0000000000000000       0x40 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__c___modsi3
+                0x0000000000000000       0x34 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__clzsi2
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__clzdi2
+                0x0000000000000000       0x22 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__popcountsi2
+                0x0000000000000000       0x46 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__popcountdi2
+                0x0000000000000000       0x70 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__paritysi2
+                0x0000000000000000       0x24 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.__paritydi2
+                0x0000000000000000       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.abs      0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.labs     0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.llabs    0x0000000000000000       0x18 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.div      0x0000000000000000       0x1e ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.ldiv     0x0000000000000000       0x1e ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.lldiv    0x0000000000000000       0x86 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.rand     0x0000000000000000       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text.srand    0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .sdata.__SEGGER_RTL_rand_next
+                0x0000000000000000        0x4 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .comment       0x0000000000000000       0x12 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .riscv.attributes
+                0x0000000000000000       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(intops.o)
+ .text          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(strasmops_rv.o)
+ .data          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(strasmops_rv.o)
+ .bss           0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(strasmops_rv.o)
+ .text.strcpy   0x0000000000000000       0x12 ../lib\libteramic-dsc28034-segger_lib_imc.a(strasmops_rv.o)
+ .text.strchr   0x0000000000000000       0x16 ../lib\libteramic-dsc28034-segger_lib_imc.a(strasmops_rv.o)
+ .text.strcmp   0x0000000000000000       0x18 ../lib\libteramic-dsc28034-segger_lib_imc.a(strasmops_rv.o)
+ .text          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .data          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .bss           0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.memmove  0x0000000000000000       0x46 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.memcmp   0x0000000000000000       0x2a ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.memchr   0x0000000000000000       0x1c ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.memrchr  0x0000000000000000       0x20 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.memcpy   0x0000000000000000       0x1c ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.mempcpy  0x0000000000000000       0x1a ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.memmem   0x0000000000000000       0x58 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.memccpy  0x0000000000000000       0x20 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.memset   0x0000000000000000       0x12 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strcasecmp
+                0x0000000000000000       0x46 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strncasecmp
+                0x0000000000000000       0x72 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strcasestr
+                0x0000000000000000       0x64 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strncasestr
+                0x0000000000000000       0x8a ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.__c_strchr
+                0x0000000000000000       0x1a ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.__c_strcpy
+                0x0000000000000000       0x2a ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.stpcpy   0x0000000000000000       0x16 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.__c_strlen
+                0x0000000000000000       0x12 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strcat   0x0000000000000000       0x20 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.__c_strcmp
+                0x0000000000000000       0x18 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strcspn  0x0000000000000000       0x36 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strdup   0x0000000000000000       0x32 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strlcat  0x0000000000000000       0x5a ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strlcpy  0x0000000000000000       0x38 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strncat  0x0000000000000000       0x28 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strnchr  0x0000000000000000       0x22 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strnlen  0x0000000000000000       0x18 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.stpncpy  0x0000000000000000       0x5e ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strndup  0x0000000000000000       0x44 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strnstr  0x0000000000000000       0x70 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strrchr  0x0000000000000000       0x28 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strsep   0x0000000000000000       0x5a ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strspn   0x0000000000000000       0x36 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strstr   0x0000000000000000       0x32 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strpbrk  0x0000000000000000       0x38 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strtok   0x0000000000000000       0x7c ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strtok_r
+                0x0000000000000000       0x6e ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text.strerror
+                0x0000000000000000       0x76 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .rodata.strerror.str1.4
+                0x0000000000000000       0x7a ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .tbss.__SEGGER_RTL_strtok_state
+                0x0000000000000000        0x4 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .text          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .data          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .bss           0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .text.__SEGGER_RTL_InitHeap
+                0x0000000000000000       0x1e ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .text.__SEGGER_RTL_X_heap_lock
+                0x0000000000000000        0x2 ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .text.__SEGGER_RTL_X_heap_unlock
+                0x0000000000000000        0x2 ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .text.malloc   0x0000000000000000       0x8e ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .text.free     0x0000000000000000       0xa8 ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .text.realloc  0x0000000000000000       0x5e ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .text.calloc   0x0000000000000000       0x4a ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .bss.__SEGGER_RTL_aHeap
+                0x0000000000000000      0x400 ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .sbss.__SEGGER_RTL_HeapInitFlag
+                0x0000000000000000        0x4 ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .sdata.__SEGGER_RTL_pHeap
+                0x0000000000000000        0x4 ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .comment       0x0000000000000000       0x12 ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .riscv.attributes
+                0x0000000000000000       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(heapops.o)
+ .text          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .data          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .bss           0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_ascii_isctype
+                0x0000000000000000       0x2c ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_ascii_toupper
+                0x0000000000000000        0xe ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_ascii_tolower
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_ascii_iswctype
+                0x0000000000000000       0x2c ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_ascii_towupper
+                0x0000000000000000        0xe ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_ascii_towlower
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_iswctype
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_isctype
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_map_range_search
+                0x0000000000000000       0x18 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_map_singleton_search
+                0x0000000000000000       0x16 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_utf8_mbtowc
+                0x0000000000000000       0x9c ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_utf8_wctomb
+                0x0000000000000000       0xae ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_ascii_wctomb
+                0x0000000000000000       0x14 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_set_bmp_singleton_search
+                0x0000000000000000       0x16 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_set_nonbmp_singleton_search
+                0x0000000000000000       0x14 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_set_bmp_range_search
+                0x0000000000000000       0x18 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_set_nonbmp_range_search
+                0x0000000000000000       0x14 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_iswalpha
+                0x0000000000000000       0x98 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_iswprint
+                0x0000000000000000       0x9a ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_towupper
+                0x0000000000000000       0xa4 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_toupper
+                0x0000000000000000       0x22 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_towlower
+                0x0000000000000000       0xa4 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_tolower
+                0x0000000000000000       0x22 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_iswspace
+                0x0000000000000000       0x56 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_iswctype_l.isra.1
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_iswgraph
+                0x0000000000000000       0x28 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_ascii_mbtowc
+                0x0000000000000000       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_iswctype
+                0x0000000000000000      0x136 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_iswctype
+                0x0000000000000000       0x30 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_unicode_isctype
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_global_locale_category
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_locale_category
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_compare_locale_name
+                0x0000000000000000       0x30 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_mb_max
+                0x0000000000000000        0x4 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_init_mbstate
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isalpha  0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isalpha_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isupper  0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isupper_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.islower  0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.islower_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isdigit  0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isdigit_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isxdigit
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isxdigit_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isspace  0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isspace_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.ispunct  0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.ispunct_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isalnum  0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isalnum_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isprint  0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isprint_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isgraph  0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isgraph_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iscntrl  0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iscntrl_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isblank  0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.isblank_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.tolower  0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.tolower_l
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.toupper  0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.toupper_l
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.towlower
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.towlower_l
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.towupper
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.towupper_l
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.towctrans
+                0x0000000000000000       0x1e ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.towctrans_l
+                0x0000000000000000       0x22 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wctrans  0x0000000000000000       0x1e ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wctrans_l
+                0x0000000000000000       0x1e ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wctype   0x0000000000000000       0x1e ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswctype
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswctype_l
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswalpha
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswalpha_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswupper
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswupper_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswlower
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswlower_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswdigit
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswdigit_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswxdigit
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswxdigit_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswspace
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswspace_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswpunct
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswpunct_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswalnum
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswalnum_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswprint
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswprint_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswgraph
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswgraph_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswcntrl
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswcntrl_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswblank
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.iswblank_l
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wctob_l  0x0000000000000000       0x36 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wctob    0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wctomb_l
+                0x0000000000000000       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wctomb   0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wcrtomb_l
+                0x0000000000000000       0x28 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wcrtomb  0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wcstombs_l
+                0x0000000000000000       0xd0 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wcstombs
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wcsrtombs_l
+                0x0000000000000000       0xfc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.wcsrtombs
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.btowc_l  0x0000000000000000       0x38 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.btowc    0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mblen_l  0x0000000000000000       0x2c ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mblen    0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mbrlen_l
+                0x0000000000000000       0x20 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mbrlen   0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mbtowc_l
+                0x0000000000000000       0x24 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mbtowc   0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mbrtowc_l
+                0x0000000000000000       0x22 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mbrtowc  0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mbsinit  0x0000000000000000        0xe ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mbstowcs_l
+                0x0000000000000000       0x60 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mbstowcs
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mbsrtowcs_l
+                0x0000000000000000       0xac ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.mbsrtowcs
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.duplocale
+                0x0000000000000000       0x3a ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.freelocale
+                0x0000000000000000       0x2c ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.localeconv_l
+                0x0000000000000000       0xae ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.localeconv
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_X_find_locale
+                0x0000000000000000        0x4 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_find_locale
+                0x0000000000000000       0x4e ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.newlocale
+                0x0000000000000000       0x72 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.__SEGGER_RTL_set_locale.part.6
+                0x0000000000000000       0x8a ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text.setlocale
+                0x0000000000000000       0xe2 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .bss.__SEGGER_RTL_lconv_data
+                0x0000000000000000       0x38 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .data.__SEGGER_RTL_global_locale
+                0x0000000000000000       0x14 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_ascii_ctype_map
+                0x0000000000000000       0x80 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_ascii_ctype_mask
+                0x0000000000000000        0xd ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_c_locale
+                0x0000000000000000        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_c_locale_abbrev_day_names
+                0x0000000000000000       0x1d ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_c_locale_abbrev_month_names
+                0x0000000000000000       0x31 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_c_locale_data
+                0x0000000000000000       0x58 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_c_locale_date_format
+                0x0000000000000000        0x9 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_c_locale_date_time_format
+                0x0000000000000000        0xf ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_c_locale_day_names
+                0x0000000000000000       0x3a ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_c_locale_month_names
+                0x0000000000000000       0x57 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_c_locale_time_format
+                0x0000000000000000        0x9 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_codeset_ascii
+                0x0000000000000000       0x20 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_codeset_utf8
+                0x0000000000000000       0x20 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_find_locale.str1.4
+                0x0000000000000000        0xa ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_bmp_isalpha_range
+                0x0000000000000000      0x46c ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_bmp_isalpha_singleton
+                0x0000000000000000       0xac ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_bmp_isprint_range
+                0x0000000000000000      0x534 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_bmp_isprint_singleton
+                0x0000000000000000       0x52 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_bmp_tolower_range1_map
+                0x0000000000000000       0xde ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_bmp_tolower_range2_map
+                0x0000000000000000       0xde ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_bmp_tolower_singleton_map
+                0x0000000000000000      0x13c ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_bmp_toupper_range1_map
+                0x0000000000000000       0xde ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_bmp_toupper_range2_map
+                0x0000000000000000       0xd2 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_bmp_toupper_singleton_map
+                0x0000000000000000      0x168 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_nonbmp_isalpha_range
+                0x0000000000000000      0x2d0 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_nonbmp_isalpha_singleton
+                0x0000000000000000       0x74 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_nonbmp_isprint_range
+                0x0000000000000000      0x470 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_unicode_nonbmp_isprint_singleton
+                0x0000000000000000       0x88 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_wctrans_name_list
+                0x0000000000000000       0x11 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.__SEGGER_RTL_wctype_class_name_list
+                0x0000000000000000       0x4a ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.mbrtowc_l.str1.4
+                0x0000000000000000        0x1 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .rodata.setlocale.str1.4
+                0x0000000000000000        0x2 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .sdata2.__SEGGER_RTL_c_locale_am_pm_indicator
+                0x0000000000000000        0x7 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .sdata2.__SEGGER_RTL_data_empty_string
+                0x0000000000000000        0x1 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .sdata2.__SEGGER_RTL_data_utf8_comma
+                0x0000000000000000        0x2 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .sdata2.__SEGGER_RTL_data_utf8_minus
+                0x0000000000000000        0x2 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .sdata2.__SEGGER_RTL_data_utf8_period
+                0x0000000000000000        0x2 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .sdata2.__SEGGER_RTL_data_utf8_plus
+                0x0000000000000000        0x2 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .sdata2.__SEGGER_RTL_data_utf8_space
+                0x0000000000000000        0x2 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .tbss.__SEGGER_RTL_mbrlen_mbstate
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .tbss.__SEGGER_RTL_mbrtowc_mbstate
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .tbss.__SEGGER_RTL_mbsrtowcs_mbstate
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .tbss.__SEGGER_RTL_mbtowc_mbstate
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .tbss.__SEGGER_RTL_wcrtomb_mbstate
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .tbss.__SEGGER_RTL_wcsrtombs_mbstate
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .tbss.__SEGGER_RTL_wctomb_mbstate
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .comment       0x0000000000000000       0x12 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .riscv.attributes
+                0x0000000000000000       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(mbops.o)
+ .text          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(sortops.o)
+ .data          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(sortops.o)
+ .bss           0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(sortops.o)
+ .text.qsort    0x0000000000000000      0x270 ../lib\libteramic-dsc28034-segger_lib_imc.a(sortops.o)
+ .text.bsearch  0x0000000000000000       0x6a ../lib\libteramic-dsc28034-segger_lib_imc.a(sortops.o)
+ .comment       0x0000000000000000       0x12 ../lib\libteramic-dsc28034-segger_lib_imc.a(sortops.o)
+ .riscv.attributes
+                0x0000000000000000       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(sortops.o)
+ .text          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .data          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .bss           0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.__SEGGER_RTL_put_ch
+                0x0000000000000000       0x20 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.__SEGGER_RTL_put_str
+                0x0000000000000000       0x2a ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.__SEGGER_RTL_put_twodigit
+                0x0000000000000000       0x3c ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.__SEGGER_RTL_put_twodigit_optional_zero_suppress
+                0x0000000000000000       0x22 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.__SEGGER_RTL_put_wide_char
+                0x0000000000000000       0x4a ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.__SEGGER_RTL_put_twodigits_leading_blank
+                0x0000000000000000       0x3c ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.__SEGGER_RTL_string_list_encode
+                0x0000000000000000       0x42 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.__SEGGER_RTL_string_list_decode
+                0x0000000000000000       0x38 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.__SEGGER_RTL_put_formatted
+                0x0000000000000000      0x432 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.mktime   0x0000000000000000      0x2c0 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.difftime
+                0x0000000000000000       0x16 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.gettimeofday
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.time     0x0000000000000000       0x2a ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.settimeofday
+                0x0000000000000000        0x8 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.localtime_r
+                0x0000000000000000      0x124 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.localtime
+                0x0000000000000000       0x22 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.gmtime_r
+                0x0000000000000000       0x1a ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.gmtime   0x0000000000000000       0x22 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.asctime_r
+                0x0000000000000000      0x138 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.ctime_r  0x0000000000000000       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.asctime  0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.ctime    0x0000000000000000       0x28 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.strftime_l
+                0x0000000000000000       0x48 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text.strftime
+                0x0000000000000000       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .bss.__SEGGER_RTL_asctime_buf
+                0x0000000000000000       0x1c ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .bss.__SEGGER_RTL_tm
+                0x0000000000000000       0x24 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .rodata.__SEGGER_RTL_mon_lengths
+                0x0000000000000000       0x18 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .rodata.__SEGGER_RTL_put_formatted.str1.4
+                0x0000000000000000       0x63 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .sdata2.__SEGGER_RTL_unknown_string
+                0x0000000000000000        0x4 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .sdata2.__SEGGER_RTL_year_lengths
+                0x0000000000000000        0x4 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .comment       0x0000000000000000       0x12 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .riscv.attributes
+                0x0000000000000000       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(timeops.o)
+ .text          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(errno.o)
+ .data          0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(errno.o)
+ .bss           0x0000000000000000        0x0 ../lib\libteramic-dsc28034-segger_lib_imc.a(errno.o)
+ .text.__SEGGER_RTL_X_errno_addr
+                0x0000000000000000        0xe ../lib\libteramic-dsc28034-segger_lib_imc.a(errno.o)
+ .tbss.__SEGGER_RTL_errno
+                0x0000000000000000        0x4 ../lib\libteramic-dsc28034-segger_lib_imc.a(errno.o)
+ .comment       0x0000000000000000       0x12 ../lib\libteramic-dsc28034-segger_lib_imc.a(errno.o)
+ .riscv.attributes
+                0x0000000000000000       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(errno.o)
+ .llvm_addrsig  0x0000000000000000        0x3 ../lib\libDSC28034_init_call.a(DSC28034_init_call.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+PRAMM0           0x0000000000000000 0x0000000000000800 xrw
+PRAMM1           0x0000000000000800 0x0000000000000800 xrw
+AdcRegs_FILE     0x0000000000001400 0x000000000000009c xrw
+AdcResult_FILE   0x000000000000149c 0x0000000000000040 xrw
+CpuTimer0Regs_FILE 0x0000000000001800 0x0000000000000010 xrw
+CpuTimer1Regs_FILE 0x0000000000001810 0x0000000000000010 xrw
+CpuTimer2Regs_FILE 0x0000000000001820 0x0000000000000010 xrw
+PieCtrlRegs_FILE 0x0000000000001900 0x0000000000000068 xrw
+XIntruptRegs_FILE 0x0000000000001968 0x000000000000007c xrw
+PieVectTable_FILE 0x0000000000001a00 0x00000000000001c0 xrw
+PieEmuRegs_FILE  0x0000000000001bc0 0x0000000000000004 xrw
+DmaRegs_FILE     0x0000000000001c00 0x0000000000000400 xrw
+ECanaRegs_FILE   0x0000000000009000 0x0000000000000068 xrw
+ECanaLAMRegs_FILE 0x0000000000009080 0x0000000000000080 xrw
+ECanaMOTSRegs_FILE 0x0000000000009100 0x0000000000000080 xrw
+ECanaMOTORegs_FILE 0x0000000000009180 0x0000000000000080 xrw
+ECAN_MBOXES_FILE 0x0000000000009200 0x0000000000000200 xrw
+EPwm1Regs_FILE   0x000000000000b000 0x0000000000000100 xrw
+EPwm2Regs_FILE   0x000000000000b100 0x0000000000000100 xrw
+EPwm3Regs_FILE   0x000000000000b200 0x0000000000000100 xrw
+EPwm4Regs_FILE   0x000000000000b300 0x0000000000000100 xrw
+EPwm5Regs_FILE   0x000000000000b400 0x0000000000000100 xrw
+EPwm6Regs_FILE   0x000000000000b500 0x0000000000000100 xrw
+EPwm7Regs_FILE   0x000000000000b600 0x0000000000000100 xrw
+Comp1Regs_FILE   0x000000000000c000 0x0000000000000028 xrw
+Comp2Regs_FILE   0x000000000000c080 0x0000000000000028 xrw
+Comp3Regs_FILE   0x000000000000c100 0x0000000000000028 xrw
+ECap1Regs_FILE   0x000000000000d000 0x0000000000000030 xrw
+EQep1Regs_FILE   0x000000000000d400 0x0000000000000064 xrw
+EQep2Regs_FILE   0x000000000000d480 0x0000000000000064 xrw
+GpioCtrlRegs_FILE 0x000000000000d800 0x0000000000000038 xrw
+GpioDataRegs_FILE 0x000000000000d838 0x0000000000000030 xrw
+GpioIntRegs_FILE 0x000000000000d868 0x0000000000000010 xrw
+SysCtrlRegs_FILE 0x000000000000dc00 0x0000000000000100 rw
+SciaRegs_FILE    0x000000000000e000 0x00000000000000f8 xrw
+I2caRegs_FILE    0x000000000000e400 0x0000000000000100 xrw
+SpiaRegs_FILE    0x000000000000e800 0x0000000000000030 xrw
+SpibRegs_FILE    0x000000000000e880 0x0000000000000030 xrw
+PRAML0           0x0000000000010000 0x0000000000004000 xrw
+PRAML1           0x0000000000014000 0x0000000000004000 xrw
+FlashRegs_FILE   0x00000000007af800 0x00000000000000bc xrw
+FLASH            0x0000000000700000 0x000000000003ffe8 xrw
+CsmPwl_FILE      0x000000000073fff0 0x0000000000000010 xrw
+LinaRegs_FILE    0x000000000000c400 0x0000000000000400 xrw
+HRCap1Regs_FILE  0x000000000000cc00 0x0000000000000070 xrw
+HRCap2Regs_FILE  0x000000000000cc80 0x0000000000000070 xrw
+BootRom_FILE     0x00000000007f8000 0x0000000000008000 xr
+Flash_Reset_FILE 0x000000000073ffe8 0x0000000000000008 xrw
+USER_OTP_FILE    0x00000000007a0000 0x0000000000002000 rw
+IER_REGISTER_FILE 0x0000000000100c10 0x0000000000000004 rw
+IFR_REGISTER_FILE 0x0000000000100d10 0x0000000000000004 rw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.AdcRegs
+ *(.AdcRegs)
+
+.AdcResult
+ *(.AdcResult)
+
+.ECap1Regs
+ *(.ECap1Regs)
+
+.CpuTimer0Regs  0x0000000000001800       0x10
+ *(.CpuTimer0Regs)
+ .CpuTimer0Regs
+                0x0000000000001800       0x10 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+                0x0000000000001800                CpuTimer0Regs
+
+.CpuTimer1Regs  0x0000000000001810       0x10
+ *(.CpuTimer1Regs)
+ .CpuTimer1Regs
+                0x0000000000001810       0x10 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+                0x0000000000001810                CpuTimer1Regs
+
+.CpuTimer2Regs  0x0000000000001820       0x10
+ *(.CpuTimer2Regs)
+ .CpuTimer2Regs
+                0x0000000000001820       0x10 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+                0x0000000000001820                CpuTimer2Regs
+
+.PieCtrlRegs    0x0000000000001900       0x68
+ *(.PieCtrlRegs)
+ .PieCtrlRegs   0x0000000000001900       0x68 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+                0x0000000000001900                PieCtrlRegs
+
+.PieVectTable   0x0000000000001a00      0x1c0
+ *(.PieVectTable)
+ .PieVectTable  0x0000000000001a00      0x1c0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+                0x0000000000001a00                PieVectTable
+
+.XIntruptRegs
+ *(.XIntruptRegs)
+
+.PieEmuRegs
+ *(.PieEmuRegs)
+
+.EQep1Regs
+ *(.EQep1Regs)
+
+.EQep2Regs
+ *(.EQep2Regs)
+
+.SpiaRegs
+ *(.SpiaRegs)
+
+.SpibRegs
+ *(.SpibRegs)
+
+.SciaRegs
+ *(.SciaRegs)
+
+.I2caRegs
+ *(.I2caRegs)
+
+.EPwm1Regs
+ *(.EPwm1Regs)
+
+.EPwm2Regs
+ *(.EPwm2Regs)
+
+.EPwm3Regs
+ *(.EPwm3Regs)
+
+.EPwm4Regs
+ *(.EPwm4Regs)
+
+.EPwm5Regs
+ *(.EPwm5Regs)
+
+.EPwm6Regs
+ *(.EPwm6Regs)
+
+.EPwm7Regs
+ *(.EPwm7Regs)
+
+.GpioCtrlRegs   0x000000000000d800       0x38
+ *(.GpioCtrlRegs)
+ .GpioCtrlRegs  0x000000000000d800       0x38 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+                0x000000000000d800                GpioCtrlRegs
+
+.GpioDataRegs   0x000000000000d838       0x30
+ *(.GpioDataRegs)
+ .GpioDataRegs  0x000000000000d838       0x30 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+                0x000000000000d838                GpioDataRegs
+
+.GpioIntRegs
+ *(.GpioIntRegs)
+
+.SysCtrlRegs    0x000000000000dc00       0x94
+ *(.SysCtrlRegs)
+ .SysCtrlRegs   0x000000000000dc00       0x94 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+                0x000000000000dc00                SysCtrlRegs
+
+.Comp1Regs
+ *(.Comp1Regs)
+
+.Comp2Regs
+ *(.Comp2Regs)
+
+.Comp3Regs
+ *(.Comp3Regs)
+
+.DmaRegs
+ *(.DmaRegs)
+
+.ECanaRegs
+ *(.ECanaRegs)
+
+.ECanaLAMRegs
+ *(.ECanaLAMRegs)
+
+.ECanaMOTSRegs
+ *(.ECanaMOTSRegs)
+
+.ECanaMOTORegs
+ *(.ECanaMOTORegs)
+
+.ECAN_MBOXES
+ *(.ECAN_MBOXES)
+
+.LinaRegs
+ *(.LinaRegs)
+
+.FlashRegs
+ *(.FlashRegs)
+
+.CsmPwl         0x000000000073fff0       0x10
+ *(.CsmPwl)
+ .CsmPwl        0x000000000073fff0       0x10 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+                0x000000000073fff0                CsmPwl
+
+.HRCap1Regs
+ *(.HRCap1Regs)
+
+.HRCap2Regs
+ *(.HRCap2Regs)
+
+.Flash_Reset    0x000000000073ffe8        0x8
+ *(.Flash_Reset)
+ .Flash_Reset   0x000000000073ffe8        0x8 ../lib\libDSC28034_init_call.a(DSC28034_init_call.o)
+                0x000000000073ffe8                _Flash_Reset
+
+._IQsinTable    0x00000000007f8000        0x0
+                0x00000000007f8000                IQsinTable = .
+                0x00000000007f8200                IQcosTable = (. + 0x200)
+
+._IQdivRoundSatTable
+                0x00000000007f8a04        0x0
+                0x00000000007f8a04                IQdivRoundSatTable = .
+
+._IQdivTable    0x00000000007f8a20        0x0
+                0x00000000007f8a20                IQdivTable = .
+
+._IQisqrtRoundSatTable
+                0x00000000007f8e24        0x0
+                0x00000000007f8e24                IQisqrtRoundSatTable = .
+
+._IQisqrtTable  0x00000000007f8e44        0x0
+                0x00000000007f8e44                IQisqrtTable = .
+
+._IQatan2HalfPITable
+                0x00000000007f9048        0x0
+                0x00000000007f9048                IQatan2HalfPITable = .
+
+._IQatan2Table  0x00000000007f90c4        0x0
+                0x00000000007f90c4                IQatan2Table = .
+
+._IQexpTableMinMax
+                0x00000000007f96a0        0x0
+                0x00000000007f96a0                IQexpTableMinMax = .
+
+._IQexpTableCoeff
+                0x00000000007f9790        0x0
+                0x00000000007f9790                IQexpTableCoeff = .
+
+._IQasinTable   0x00000000007f97b8        0x0
+                0x00000000007f97b8                IQasinTable = .
+
+.USER_OTP_TABLE
+ *(.User_Otp_Table)
+
+.IER_REGISTER   0x0000000000100c10        0x4
+ *(.ier_register)
+ .ier_register  0x0000000000100c10        0x4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+                0x0000000000100c10                IER
+
+.IFR_REGISTER
+ *(.ifr_register)
+                0x0000000000700000                . = 0x700000
+
+.text.init      0x0000000000700000      0x12c
+ *(.text.init)
+ .text.init     0x0000000000700000      0x12c ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+                0x0000000000700000                _start
+
+.text           0x0000000000700130     0x4b55
+ *(.text)
+ .text          0x0000000000700130        0x6 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_unset.o
+                0x0000000000700130                ier_unset
+ *fill*         0x0000000000700136        0x2 
+ .text          0x0000000000700138        0x6 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_unset.o
+                0x0000000000700138                ifr_unset
+ *fill*         0x000000000070013e        0x2 
+ .text          0x0000000000700140       0xc8 ./rt-thread/libcpu/context_gcc.o
+                0x0000000000700140                rt_hw_interrupt_disable
+                0x0000000000700146                rt_hw_interrupt_enable
+                0x000000000070014c                rt_hw_context_switch_to
+                0x000000000070015a                rt_hw_context_switch
+                0x00000000007001b2                rt_hw_context_switch_exit
+ .text          0x0000000000700208       0x6e ../lib\libDSC28034_init_call.a(DSC28034_init_call.o)
+                0x0000000000700208                _init_call
+                0x0000000000700238                OSC_LDO_cal
+ *(.IQmath)
+ *(.text*)
+ .text.handle_trap
+                0x0000000000700276        0x4 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+                0x0000000000700276                handle_trap
+ .text._init    0x000000000070027a       0xfc ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+                0x000000000070027a                _init
+ .text.memset   0x0000000000700376       0x10 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+                0x0000000000700376                memset
+ .text.InitCpuTimers
+                0x0000000000700386       0x7c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+                0x0000000000700386                InitCpuTimers
+ .text.ConfigCpuTimer
+                0x0000000000700402       0x46 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+                0x0000000000700402                ConfigCpuTimer
+ .text.ADCINT1_ISR
+                0x0000000000700448        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700448                ADCINT1_ISR
+ .text.ADCINT2_ISR
+                0x000000000070044a        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070044a                ADCINT2_ISR
+ .text.XINT1_ISR
+                0x000000000070044c        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070044c                XINT1_ISR
+ .text.XINT2_ISR
+                0x000000000070044e        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070044e                XINT2_ISR
+ .text.ADCINT9_ISR
+                0x0000000000700450        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700450                ADCINT9_ISR
+ .text.TINT0_ISR
+                0x0000000000700452        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700452                TINT0_ISR
+ .text.WAKEINT_ISR
+                0x0000000000700454        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700454                WAKEINT_ISR
+ .text.EPWM1_TZINT_ISR
+                0x0000000000700456        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700456                EPWM1_TZINT_ISR
+ .text.EPWM2_TZINT_ISR
+                0x0000000000700458        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700458                EPWM2_TZINT_ISR
+ .text.EPWM3_TZINT_ISR
+                0x000000000070045a        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070045a                EPWM3_TZINT_ISR
+ .text.EPWM4_TZINT_ISR
+                0x000000000070045c        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070045c                EPWM4_TZINT_ISR
+ .text.EPWM1_INT_ISR
+                0x000000000070045e        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070045e                EPWM1_INT_ISR
+ .text.EPWM2_INT_ISR
+                0x0000000000700460        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700460                EPWM2_INT_ISR
+ .text.EPWM3_INT_ISR
+                0x0000000000700462        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700462                EPWM3_INT_ISR
+ .text.EPWM4_INT_ISR
+                0x0000000000700464        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700464                EPWM4_INT_ISR
+ .text.ECAP1_INT_ISR
+                0x0000000000700466        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700466                ECAP1_INT_ISR
+ .text.EQEP1_INT_ISR
+                0x0000000000700468        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700468                EQEP1_INT_ISR
+ .text.SPIRXINTA_ISR
+                0x000000000070046a        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070046a                SPIRXINTA_ISR
+ .text.SPITXINTA_ISR
+                0x000000000070046c        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070046c                SPITXINTA_ISR
+ .text.DINTCH1_ISR
+                0x000000000070046e        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070046e                DINTCH1_ISR
+ .text.DINTCH2_ISR
+                0x0000000000700470        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700470                DINTCH2_ISR
+ .text.DINTCH3_ISR
+                0x0000000000700472        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700472                DINTCH3_ISR
+ .text.DINTCH4_ISR
+                0x0000000000700474        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700474                DINTCH4_ISR
+ .text.DINTCH5_ISR
+                0x0000000000700476        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700476                DINTCH5_ISR
+ .text.DINTCH6_ISR
+                0x0000000000700478        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700478                DINTCH6_ISR
+ .text.I2CINT1A_ISR
+                0x000000000070047a        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070047a                I2CINT1A_ISR
+ .text.SCITXINTA_ISR
+                0x000000000070047c        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070047c                SCITXINTA_ISR
+ .text.SCIRXINTA_ISR
+                0x000000000070047e        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070047e                SCIRXINTA_ISR
+ .text.LINA_INT0_ISR
+                0x0000000000700480        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700480                LINA_INT0_ISR
+ .text.LINA_INT1_ISR
+                0x0000000000700482        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700482                LINA_INT1_ISR
+ .text.ECANA_INT0_ISR
+                0x0000000000700484        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700484                ECANA_INT0_ISR
+ .text.ECANA_INT1_ISR
+                0x0000000000700486        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700486                ECANA_INT1_ISR
+ .text.ADCINT3_ISR
+                0x0000000000700488        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700488                ADCINT3_ISR
+ .text.ADCINT4_ISR
+                0x000000000070048a        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070048a                ADCINT4_ISR
+ .text.ADCINT5_ISR
+                0x000000000070048c        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070048c                ADCINT5_ISR
+ .text.ADCINT6_ISR
+                0x000000000070048e        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070048e                ADCINT6_ISR
+ .text.ADCINT7_ISR
+                0x0000000000700490        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700490                ADCINT7_ISR
+ .text.ADCINT8_ISR
+                0x0000000000700492        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700492                ADCINT8_ISR
+ .text.XINT3_ISR
+                0x0000000000700494        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700494                XINT3_ISR
+ .text.rsvd_ISR
+                0x0000000000700496        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700496                rsvd_ISR
+ .text.TINT1_ISR
+                0x0000000000700498        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x0000000000700498                TINT1_ISR
+ .text.TINT2_ISR
+                0x000000000070049a        0x2 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                0x000000000070049a                TINT2_ISR
+ .text.InitPieCtrl
+                0x000000000070049c       0x6c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+                0x000000000070049c                InitPieCtrl
+ .text.InitPieVectTable
+                0x0000000000700508       0x38 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+                0x0000000000700508                InitPieVectTable
+ .text.InitSysCtrl
+                0x0000000000700540       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+                0x0000000000700540                InitSysCtrl
+ .text.XtalOscSel
+                0x0000000000700566       0x48 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+                0x0000000000700566                XtalOscSel
+ .text.InitPll  0x00000000007005ae       0xbc ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+                0x00000000007005ae                InitPll
+ .text.InitPeripheralClocks
+                0x000000000070066a       0xf8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+                0x000000000070066a                InitPeripheralClocks
+ .text.rt_tick_get
+                0x0000000000700762        0x6 ./rt-thread/src/clock.o
+                0x0000000000700762                rt_tick_get
+ .text.rt_tick_increase
+                0x0000000000700768       0x52 ./rt-thread/src/clock.o
+                0x0000000000700768                rt_tick_increase
+ .text.rti_board_start
+                0x00000000007007ba        0x4 ./rt-thread/src/components.o
+ .text.rti_board_end
+                0x00000000007007be        0x4 ./rt-thread/src/components.o
+ .text.rti_end  0x00000000007007c2        0x4 ./rt-thread/src/components.o
+ .text.rt_components_board_init
+                0x00000000007007c6       0x26 ./rt-thread/src/components.o
+                0x00000000007007c6                rt_components_board_init
+ .text.rtthread_startup
+                0x00000000007007ec       0x28 ./rt-thread/src/components.o
+                0x00000000007007ec                rtthread_startup
+ .text.main_thread_entry
+                0x0000000000700814       0x32 ./rt-thread/src/components.o
+                0x0000000000700814                main_thread_entry
+ .text.rt_application_init
+                0x0000000000700846       0x4e ./rt-thread/src/components.o
+                0x0000000000700846                rt_application_init
+ .text.rt_device_register
+                0x0000000000700894       0x36 ./rt-thread/src/device.o
+                0x0000000000700894                rt_device_register
+ .text.rt_device_find
+                0x00000000007008ca        0x6 ./rt-thread/src/device.o
+                0x00000000007008ca                rt_device_find
+ .text.rt_device_open
+                0x00000000007008d0       0xec ./rt-thread/src/device.o
+                0x00000000007008d0                rt_device_open
+ .text.rt_device_close
+                0x00000000007009bc       0x7e ./rt-thread/src/device.o
+                0x00000000007009bc                rt_device_close
+ .text.rt_device_write
+                0x0000000000700a3a       0x8a ./rt-thread/src/device.o
+                0x0000000000700a3a                rt_device_write
+ .text.rt_thread_defunct_enqueue
+                0x0000000000700ac4       0x18 ./rt-thread/src/idle.o
+                0x0000000000700ac4                rt_thread_defunct_enqueue
+ .text.rt_thread_defunct_dequeue
+                0x0000000000700adc       0x34 ./rt-thread/src/idle.o
+                0x0000000000700adc                rt_thread_defunct_dequeue
+ .text.rt_thread_idle_init
+                0x0000000000700b10       0x48 ./rt-thread/src/idle.o
+                0x0000000000700b10                rt_thread_idle_init
+ .text.idle_thread_entry
+                0x0000000000700b58       0x5e ./rt-thread/src/idle.o
+ .text.rt_mutex_init
+                0x0000000000700bb6       0x4c ./rt-thread/src/ipc.o
+                0x0000000000700bb6                rt_mutex_init
+ .text.rt_mutex_take
+                0x0000000000700c02      0x238 ./rt-thread/src/ipc.o
+                0x0000000000700c02                rt_mutex_take
+ .text.rt_mutex_release
+                0x0000000000700e3a      0x17a ./rt-thread/src/ipc.o
+                0x0000000000700e3a                rt_mutex_release
+ .text.rt_interrupt_enter
+                0x0000000000700fb4       0x2a ./rt-thread/src/irq.o
+                0x0000000000700fb4                rt_interrupt_enter
+ .text.rt_interrupt_leave
+                0x0000000000700fde       0x2a ./rt-thread/src/irq.o
+                0x0000000000700fde                rt_interrupt_leave
+ .text.rt_interrupt_get_nest
+                0x0000000000701008       0x16 ./rt-thread/src/irq.o
+                0x0000000000701008                rt_interrupt_get_nest
+ .text.rt_kprintf
+                0x000000000070101e       0x5c ./rt-thread/src/kservice.o
+                0x000000000070101e                rt_kprintf
+ .text.rt_set_errno
+                0x000000000070107a       0x1e ./rt-thread/src/kservice.o
+                0x000000000070107a                rt_set_errno
+ .text.rt_memset
+                0x0000000000701098       0x90 ./rt-thread/src/kservice.o
+                0x0000000000701098                rt_memset
+ .text.rt_malloc
+                0x0000000000701128       0x6a ./rt-thread/src/kservice.o
+                0x0000000000701128                rt_malloc
+ .text.rt_show_version
+                0x0000000000701192       0x46 ./rt-thread/src/kservice.o
+                0x0000000000701192                rt_show_version
+ .text.rt_vsnprintf
+                0x00000000007011d8      0x3a2 ./rt-thread/src/kservice.o
+                0x00000000007011d8                rt_vsnprintf
+ .text.print_number
+                0x000000000070157a      0x19c ./rt-thread/src/kservice.o
+ .text.rt_sprintf
+                0x0000000000701716       0x24 ./rt-thread/src/kservice.o
+                0x0000000000701716                rt_sprintf
+ .text.rt_console_set_device
+                0x000000000070173a       0x36 ./rt-thread/src/kservice.o
+                0x000000000070173a                rt_console_set_device
+ .text.rt_hw_console_output
+                0x0000000000701770        0x2 ./rt-thread/src/kservice.o
+                0x0000000000701770                rt_hw_console_output
+ .text.rt_system_heap_init
+                0x0000000000701772       0x5e ./rt-thread/src/kservice.o
+                0x0000000000701772                rt_system_heap_init
+ .text.rt_assert_handler
+                0x00000000007017d0       0x38 ./rt-thread/src/kservice.o
+                0x00000000007017d0                rt_assert_handler
+ .text.rt_free  0x0000000000701808       0x6a ./rt-thread/src/kservice.o
+                0x0000000000701808                rt_free
+ .text.__rt_ffs
+                0x0000000000701872       0x44 ./rt-thread/src/kservice.o
+                0x0000000000701872                __rt_ffs
+ .text.rt_smem_init
+                0x00000000007018b6       0xa4 ./rt-thread/src/mem.o
+                0x00000000007018b6                rt_smem_init
+ .text.rt_smem_alloc
+                0x000000000070195a      0x1a8 ./rt-thread/src/mem.o
+                0x000000000070195a                rt_smem_alloc
+ .text.rt_smem_free
+                0x0000000000701b02      0x136 ./rt-thread/src/mem.o
+                0x0000000000701b02                rt_smem_free
+ .text.plug_holes
+                0x0000000000701c38       0xa2 ./rt-thread/src/mem.o
+ .text.rt_object_init
+                0x0000000000701cda       0xd8 ./rt-thread/src/object.o
+                0x0000000000701cda                rt_object_init
+ .text.rt_object_detach
+                0x0000000000701db2       0x50 ./rt-thread/src/object.o
+                0x0000000000701db2                rt_object_detach
+ .text.rt_object_allocate
+                0x0000000000701e02       0xde ./rt-thread/src/object.o
+                0x0000000000701e02                rt_object_allocate
+ .text.rt_object_delete
+                0x0000000000701ee0       0x78 ./rt-thread/src/object.o
+                0x0000000000701ee0                rt_object_delete
+ .text.rt_object_is_systemobject
+                0x0000000000701f58       0x2a ./rt-thread/src/object.o
+                0x0000000000701f58                rt_object_is_systemobject
+ .text.rt_object_get_type
+                0x0000000000701f82       0x2c ./rt-thread/src/object.o
+                0x0000000000701f82                rt_object_get_type
+ .text.rt_object_find
+                0x0000000000701fae       0x84 ./rt-thread/src/object.o
+                0x0000000000701fae                rt_object_find
+ .text.rt_system_scheduler_init
+                0x0000000000702032       0x22 ./rt-thread/src/scheduler.o
+                0x0000000000702032                rt_system_scheduler_init
+ .text.rt_system_scheduler_start
+                0x0000000000702054       0x38 ./rt-thread/src/scheduler.o
+                0x0000000000702054                rt_system_scheduler_start
+ .text.rt_schedule_remove_thread
+                0x000000000070208c       0x66 ./rt-thread/src/scheduler.o
+                0x000000000070208c                rt_schedule_remove_thread
+ .text.rt_schedule
+                0x00000000007020f2      0x13e ./rt-thread/src/scheduler.o
+                0x00000000007020f2                rt_schedule
+ .text.rt_schedule_insert_thread
+                0x0000000000702230       0x94 ./rt-thread/src/scheduler.o
+                0x0000000000702230                rt_schedule_insert_thread
+ .text.rt_enter_critical
+                0x00000000007022c4       0x1a ./rt-thread/src/scheduler.o
+                0x00000000007022c4                rt_enter_critical
+ .text.rt_exit_critical
+                0x00000000007022de       0x40 ./rt-thread/src/scheduler.o
+                0x00000000007022de                rt_exit_critical
+ .text.rt_critical_level
+                0x000000000070231e        0x6 ./rt-thread/src/scheduler.o
+                0x000000000070231e                rt_critical_level
+ .text.rt_thread_init
+                0x0000000000702324       0x6c ./rt-thread/src/thread.o
+                0x0000000000702324                rt_thread_init
+ .text._thread_init
+                0x0000000000702390       0xbe ./rt-thread/src/thread.o
+ .text.rt_thread_self
+                0x000000000070244e        0x6 ./rt-thread/src/thread.o
+                0x000000000070244e                rt_thread_self
+ .text.rt_thread_startup
+                0x0000000000702454       0x88 ./rt-thread/src/thread.o
+                0x0000000000702454                rt_thread_startup
+ .text.rt_thread_resume
+                0x00000000007024dc       0x90 ./rt-thread/src/thread.o
+                0x00000000007024dc                rt_thread_resume
+ .text.rt_thread_detach
+                0x000000000070256c       0x9c ./rt-thread/src/thread.o
+                0x000000000070256c                rt_thread_detach
+ .text.rt_thread_create
+                0x0000000000702608       0x44 ./rt-thread/src/thread.o
+                0x0000000000702608                rt_thread_create
+ .text.rt_thread_delete
+                0x000000000070264c       0x9c ./rt-thread/src/thread.o
+                0x000000000070264c                rt_thread_delete
+ .text.rt_thread_sleep
+                0x00000000007026e8      0x140 ./rt-thread/src/thread.o
+                0x00000000007026e8                rt_thread_sleep
+ .text.rt_thread_suspend
+                0x0000000000702828       0xac ./rt-thread/src/thread.o
+                0x0000000000702828                rt_thread_suspend
+ .text.rt_thread_delay
+                0x00000000007028d4        0x4 ./rt-thread/src/thread.o
+                0x00000000007028d4                rt_thread_delay
+ .text.rt_thread_control
+                0x00000000007028d8       0xc4 ./rt-thread/src/thread.o
+                0x00000000007028d8                rt_thread_control
+ .text._thread_exit
+                0x000000000070299c       0x3c ./rt-thread/src/thread.o
+ .text._thread_timeout
+                0x00000000007029d8       0xa0 ./rt-thread/src/thread.o
+ .text.rt_timer_init
+                0x0000000000702a78       0x96 ./rt-thread/src/timer.o
+                0x0000000000702a78                rt_timer_init
+ .text.rt_timer_detach
+                0x0000000000702b0e       0x96 ./rt-thread/src/timer.o
+                0x0000000000702b0e                rt_timer_detach
+ .text.rt_timer_start
+                0x0000000000702ba4      0x10e ./rt-thread/src/timer.o
+                0x0000000000702ba4                rt_timer_start
+ .text.rt_timer_stop
+                0x0000000000702cb2       0x86 ./rt-thread/src/timer.o
+                0x0000000000702cb2                rt_timer_stop
+ .text.rt_timer_control
+                0x0000000000702d38       0xe2 ./rt-thread/src/timer.o
+                0x0000000000702d38                rt_timer_control
+ .text.rt_timer_check
+                0x0000000000702e1a       0xca ./rt-thread/src/timer.o
+                0x0000000000702e1a                rt_timer_check
+ .text._timer_list_next_timeout
+                0x0000000000702ee4       0x24 ./rt-thread/src/timer.o
+ .text.rt_soft_timer_check
+                0x0000000000702f08       0xd6 ./rt-thread/src/timer.o
+                0x0000000000702f08                rt_soft_timer_check
+ .text.rt_system_timer_init
+                0x0000000000702fde        0xc ./rt-thread/src/timer.o
+                0x0000000000702fde                rt_system_timer_init
+ .text.rt_system_timer_thread_init
+                0x0000000000702fea       0x44 ./rt-thread/src/timer.o
+                0x0000000000702fea                rt_system_timer_thread_init
+ .text._timer_thread_entry
+                0x000000000070302e       0x46 ./rt-thread/src/timer.o
+ .text.rt_hw_stack_init
+                0x0000000000703074       0x3c ./rt-thread/libcpu/cpuport.o
+                0x0000000000703074                rt_hw_stack_init
+ .text.rt_hw_context_switch_interrupt
+                0x00000000007030b0       0x16 ./rt-thread/libcpu/cpuport.o
+                0x00000000007030b0                rt_hw_context_switch_interrupt
+ .text.rt_device_pin_register
+                0x00000000007030c6       0x50 ./rt-thread/components/drivers/misc/pin.o
+                0x00000000007030c6                rt_device_pin_register
+ .text._pin_read
+                0x0000000000703116       0x4a ./rt-thread/components/drivers/misc/pin.o
+ .text._pin_write
+                0x0000000000703160       0x4c ./rt-thread/components/drivers/misc/pin.o
+ .text._pin_control
+                0x00000000007031ac       0x3e ./rt-thread/components/drivers/misc/pin.o
+ .text.rt_hw_pin_init
+                0x00000000007031ea       0x16 ./rt-thread/bsp/drv_gpio.o
+                0x00000000007031ea                rt_hw_pin_init
+ .text.c28x_pin_mode
+                0x0000000000703200       0x82 ./rt-thread/bsp/drv_gpio.o
+ .text.c28x_pin_write
+                0x0000000000703282       0x20 ./rt-thread/bsp/drv_gpio.o
+ .text.c28x_pin_read
+                0x00000000007032a2       0x18 ./rt-thread/bsp/drv_gpio.o
+ .text.c28x_pin_get
+                0x00000000007032ba       0x56 ./rt-thread/bsp/drv_gpio.o
+ .text.cpu_timer2_isr
+                0x0000000000703310       0x5c ./board/board.o
+                0x0000000000703310                cpu_timer2_isr
+ .text.rt_hw_board_init
+                0x000000000070336c       0xaa ./board/board.o
+                0x000000000070336c                rt_hw_board_init
+ .text.super_main
+                0x0000000000703416        0xc ./board/board.o
+                0x0000000000703416                super_main
+ .text.main     0x0000000000703422        0x4 ./applications/startup.o
+                0x0000000000703422                main
+ .text.__riscv_save_12
+                0x0000000000703426       0x30 ../lib\libteramic-dsc28034-segger_lib_imc.a(compilerasmops_rv.o)
+                0x0000000000703426                __riscv_save_12
+                0x000000000070342e                __riscv_save_11
+                0x000000000070342e                __riscv_save_8
+                0x000000000070342e                __riscv_save_10
+                0x000000000070342e                __riscv_save_9
+                0x000000000070343c                __riscv_save_7
+                0x000000000070343c                __riscv_save_6
+                0x000000000070343c                __riscv_save_5
+                0x000000000070343c                __riscv_save_4
+ .text.__riscv_save_3
+                0x0000000000703456        0xc ../lib\libteramic-dsc28034-segger_lib_imc.a(compilerasmops_rv.o)
+                0x0000000000703456                __riscv_save_3
+                0x0000000000703456                __riscv_save_2
+                0x0000000000703456                __riscv_save_0
+                0x0000000000703456                __riscv_save_1
+ .text.__riscv_restore_12
+                0x0000000000703462       0x24 ../lib\libteramic-dsc28034-segger_lib_imc.a(compilerasmops_rv.o)
+                0x0000000000703462                __riscv_restore_12
+                0x0000000000703466                __riscv_restore_11
+                0x0000000000703468                __riscv_restore_10
+                0x000000000070346a                __riscv_restore_9
+                0x000000000070346c                __riscv_restore_8
+                0x0000000000703470                __riscv_restore_7
+                0x0000000000703472                __riscv_restore_6
+                0x0000000000703474                __riscv_restore_5
+                0x0000000000703476                __riscv_restore_4
+                0x000000000070347a                __riscv_restore_3
+                0x000000000070347c                __riscv_restore_2
+                0x000000000070347e                __riscv_restore_1
+                0x0000000000703480                __riscv_restore_0
+ .text.__mulsf3
+                0x0000000000703486       0xb0 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+                0x0000000000703486                __mulsf3
+ .text.__fixsfsi
+                0x0000000000703536       0x4a ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+                0x0000000000703536                __fixsfsi
+ .text.strlen   0x0000000000703580       0x10 ../lib\libteramic-dsc28034-segger_lib_imc.a(strasmops_rv.o)
+                0x0000000000703580                strlen
+ .text.strncmp  0x0000000000703590       0x2c ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+                0x0000000000703590                strncmp
+ .text.strncpy  0x00000000007035bc       0x2a ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+                0x00000000007035bc                strncpy
+ *(.rodata .rodata.*)
+ *fill*         0x00000000007035e6        0x2 
+ .rodata.PieVectTableInit
+                0x00000000007035e8      0x1c0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+                0x00000000007035e8                PieVectTableInit
+ .rodata.str1.1
+                0x00000000007037a8       0x28 ./rt-thread/src/components.o
+ .rodata.str1.1
+                0x00000000007037d0      0x1aa ./rt-thread/src/device.o
+ .rodata.str1.1
+                0x000000000070397a        0x8 ./rt-thread/src/idle.o
+ .rodata.str1.1
+                0x0000000000703982      0x6c0 ./rt-thread/src/ipc.o
+                                        0x6c2 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000704042      0x1f8 ./rt-thread/src/kservice.o
+                                        0x1fb (size before relaxing)
+ .rodata.__lowest_bit_bitmap
+                0x000000000070423a      0x100 ./rt-thread/src/kservice.o
+                0x000000000070423a                __lowest_bit_bitmap
+ .rodata.str1.1
+                0x000000000070433a      0x3ac ./rt-thread/src/mem.o
+                                        0x3f0 (size before relaxing)
+ .rodata.str1.1
+                0x00000000007046e6       0xe0 ./rt-thread/src/object.o
+                                        0x109 (size before relaxing)
+ .rodata.str1.1
+                0x00000000007047c6       0x60 ./rt-thread/src/scheduler.o
+ .rodata.str1.1
+                0x0000000000704826      0x22f ./rt-thread/src/thread.o
+                                        0x2d8 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000704a55      0x16f ./rt-thread/src/timer.o
+ .rodata.str1.1
+                0x0000000000704bc4       0x99 ./rt-thread/components/drivers/misc/pin.o
+                                         0xae (size before relaxing)
+ .rodata.str1.1
+                0x0000000000704c5d        0x4 ./rt-thread/bsp/drv_gpio.o
+ *fill*         0x0000000000704c61        0x3 
+ .rodata._c28x_pin_ops
+                0x0000000000704c64       0x1c ./rt-thread/bsp/drv_gpio.o
+ .rodata.str1.1
+                0x0000000000704c80        0x5 ./board/board.o
+
+.rti_fn.0.end   0x0000000000704c88        0x4
+ .rti_fn.0.end  0x0000000000704c88        0x4 ./rt-thread/src/components.o
+                0x0000000000704c88                __rt_init_rti_board_start
+
+.rti_fn.1.end   0x0000000000704c8c        0x4
+ .rti_fn.1.end  0x0000000000704c8c        0x4 ./rt-thread/src/components.o
+                0x0000000000704c8c                __rt_init_rti_board_end
+
+.rti_fn.6.end   0x0000000000704c90        0x4
+ .rti_fn.6.end  0x0000000000704c90        0x4 ./rt-thread/src/components.o
+                0x0000000000704c90                __rt_init_rti_end
+
+.rela.dyn       0x0000000000704c94        0x0
+ .rela.text.init
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text._init
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_device_open
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.idle_thread_entry
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_mutex_take
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_mutex_release
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_kprintf
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_set_errno
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_memset
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_show_version
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_sprintf
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_assert_handler
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_smem_init
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_object_init
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_object_allocate
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_object_delete
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_object_find
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_schedule
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text._thread_init
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_thread_create
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_thread_sleep
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_device_pin_register
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.cpu_timer2_isr
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .rela.text.rt_hw_board_init
+                0x0000000000704c94        0x0 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+
+.FLASH_L0_DATA  0x0000000000704ca0        0x0
+                0x0000000000704ca0                __flash_start = .
+
+.FLASH_L1_DATA  0x0000000000704ca0        0x0
+                0x0000000000704d70                __l1_flash_start = (__flash_start + (__data_end - __data_start))
+
+.FLASH_M0_DATA  0x0000000000704ca0        0x0
+                0x0000000000704d70                __m0_flash_start = (__l1_flash_start + (__l1_data_end - __l1_data_start))
+
+.FLASH_M1_DATA  0x0000000000704ca0        0x0
+                0x0000000000704d70                __m1_flash_start = (__m0_flash_start + (__m0_data_end - __m0_data_start))
+                0x0000000000010000                . = 0x10000
+
+.sdata          0x0000000000010000       0xce load address 0x0000000000704ca0
+                0x0000000000010000                __data_start = .
+                0x0000000000010800                __global_pointer$ = (. + 0x800)
+ *(.data)
+ *(.data.*)
+ .data._object_container
+                0x0000000000010000       0xa0 ./rt-thread/src/object.o
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x00000000000100a0        0x8 ./rt-thread/src/idle.o
+ *(L0)
+ *(ramfuncs)
+ ramfuncs       0x00000000000100a8       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/_DSP2803x_usDelay.o
+                0x00000000000100a8                _DSP2803x_usDelay
+                0x00000000000100d0                __data_end = ALIGN (0x8)
+
+.sbss           0x0000000000010100       0x90 load address 0x0000000000704da0
+                0x0000000000010100                __bss_start = .
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000010100        0x8 ./rt-thread/src/clock.o
+ .sbss          0x0000000000010108        0x9 ./rt-thread/src/irq.o
+                0x0000000000010110                rt_interrupt_nest
+ *fill*         0x0000000000010111        0x3 
+ .sbss          0x0000000000010114       0x18 ./rt-thread/src/kservice.o
+                0x0000000000010128                rt_assert_hook
+ .sbss          0x000000000001012c       0x14 ./rt-thread/src/object.o
+                0x0000000000010134                rt_object_trytake_hook
+                0x0000000000010138                rt_object_take_hook
+                0x000000000001013c                rt_object_put_hook
+ .sbss          0x0000000000010140       0x15 ./rt-thread/src/scheduler.o
+                0x0000000000010140                rt_current_thread
+                0x0000000000010150                rt_thread_ready_priority_group
+                0x0000000000010154                rt_current_priority
+ *fill*         0x0000000000010155        0x3 
+ .sbss          0x0000000000010158        0xc ./rt-thread/src/thread.o
+ .sbss          0x0000000000010164       0x1d ./rt-thread/src/timer.o
+ *fill*         0x0000000000010181        0x3 
+ .sbss          0x0000000000010184        0xc ./rt-thread/libcpu/cpuport.o
+                0x0000000000010184                rt_interrupt_from_thread
+                0x0000000000010188                rt_interrupt_to_thread
+                0x000000000001018c                rt_thread_switch_interrupt_flag
+ *(.scommon)
+
+.bss            0x0000000000010200      0x62c load address 0x0000000000704ea0
+ *(.bss)
+ *(.bss.*)
+ .bss.CpuTimer0
+                0x0000000000010200       0x10 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+                0x0000000000010200                CpuTimer0
+ .bss.CpuTimer1
+                0x0000000000010210       0x10 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+                0x0000000000010210                CpuTimer1
+ .bss.CpuTimer2
+                0x0000000000010220       0x10 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+                0x0000000000010220                CpuTimer2
+ .bss.idle_hook_list
+                0x0000000000010230       0x10 ./rt-thread/src/idle.o
+ .bss.idle_thread
+                0x0000000000010240       0x80 ./rt-thread/src/idle.o
+ .bss.idle_thread_stack
+                0x00000000000102c0      0x100 ./rt-thread/src/idle.o
+ .bss.rt_kprintf.rt_log_buf
+                0x00000000000103c0       0x80 ./rt-thread/src/kservice.o
+ .bss._lock     0x0000000000010440       0x24 ./rt-thread/src/kservice.o
+ .bss.rt_thread_priority_table
+                0x0000000000010464      0x100 ./rt-thread/src/scheduler.o
+                0x0000000000010464                rt_thread_priority_table
+ .bss._timer_thread
+                0x0000000000010564       0x80 ./rt-thread/src/timer.o
+ .bss._timer_thread_stack
+                0x00000000000105e4      0x200 ./rt-thread/src/timer.o
+ .bss._hw_pin   0x00000000000107e4       0x48 ./rt-thread/components/drivers/misc/pin.o
+                0x000000000001082c                __bss_end = .
+
+.tdata          0x000000000001082c        0x0
+                0x000000000001082c                _tls_data = .
+ *(.tdata.begin)
+ *(.tdata)
+ *(.tdata.end)
+
+.tbss
+ *(.tbss)
+ *(.tbss.end)
+                0x0000000000014000                . = 0x14000
+
+.L1             0x0000000000014000        0x0 load address 0x0000000000704d70
+                0x0000000000014000                __l1_data_start = .
+ *(L1)
+                0x0000000000014000                __l1_data_end = ALIGN (0x8)
+                0x0000000000000000                . = 0x0
+
+.M0             0x0000000000000000        0x0 load address 0x0000000000704d70
+                0x0000000000000000                __m0_data_start = .
+                0x0000000000000800                __global_sp$ = (. + 0x800)
+ *(M0)
+                0x0000000000000000                __m0_data_end = ALIGN (0x8)
+                0x0000000000000800                . = 0x800
+
+.M1             0x0000000000000800        0x0 load address 0x0000000000704d70
+                0x0000000000000800                __m1_data_start = .
+ *(ramconsts)
+ *(M1)
+                0x0000000000000800                __m1_data_end = ALIGN (0x8)
+                0x0000000000000800                _end = .
+LOAD ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Adc.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Comp.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECan.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_ECap.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EPwm.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_EQep.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Gpio.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_I2C.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Lin.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_OTP.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Sci.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_Spi.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/_DSP2803x_usDelay.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/disable_interrupt.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/enable_interrupt.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_set.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_unset.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_set.o
+LOAD ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_unset.o
+LOAD ./src/adc.o
+LOAD ./src/epwm.o
+LOAD ./src/main.o
+LOAD ./src/sci.o
+LOAD ./rt-thread/src/clock.o
+LOAD ./rt-thread/src/components.o
+LOAD ./rt-thread/src/device.o
+LOAD ./rt-thread/src/idle.o
+LOAD ./rt-thread/src/ipc.o
+LOAD ./rt-thread/src/irq.o
+LOAD ./rt-thread/src/kservice.o
+LOAD ./rt-thread/src/mem.o
+LOAD ./rt-thread/src/mempool.o
+LOAD ./rt-thread/src/object.o
+LOAD ./rt-thread/src/scheduler.o
+LOAD ./rt-thread/src/thread.o
+LOAD ./rt-thread/src/timer.o
+LOAD ./rt-thread/libcpu/context_gcc.o
+LOAD ./rt-thread/libcpu/cpuport.o
+LOAD ./rt-thread/components/finsh/cmd.o
+LOAD ./rt-thread/components/finsh/msh.o
+LOAD ./rt-thread/components/finsh/msh_parse.o
+LOAD ./rt-thread/components/finsh/shell.o
+LOAD ./rt-thread/components/drivers/misc/pin.o
+LOAD ./rt-thread/bsp/drv_gpio.o
+LOAD ./board/board.o
+LOAD ./applications/startup.o
+LOAD ../lib\libteramic-dsc28034-segger_lib_imc.a
+LOAD ../lib\libDSC28034_init_call.a
+LOAD ../lib\libIQmath.a
+OUTPUT(TSET_BO.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000    0x1bd02
+ .debug_info    0x0000000000000000      0x150 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .debug_info    0x0000000000000150     0x144b ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .debug_info    0x000000000000159b     0xd22d ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .debug_info    0x000000000000e7c8       0x9e ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+ .debug_info    0x000000000000e866      0x2cb ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+ .debug_info    0x000000000000eb31      0x47e ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .debug_info    0x000000000000efaf       0x49 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+ .debug_info    0x000000000000eff8      0x631 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+ .debug_info    0x000000000000f629      0x1a3 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .debug_info    0x000000000000f7cc      0x11b ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/_DSP2803x_usDelay.o
+ .debug_info    0x000000000000f8e7      0x10c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_unset.o
+ .debug_info    0x000000000000f9f3      0x10c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_unset.o
+ .debug_info    0x000000000000faff      0x462 ./rt-thread/src/clock.o
+ .debug_info    0x000000000000ff61      0x58d ./rt-thread/src/components.o
+ .debug_info    0x00000000000104ee      0x9c1 ./rt-thread/src/device.o
+ .debug_info    0x0000000000010eaf      0x728 ./rt-thread/src/idle.o
+ .debug_info    0x00000000000115d7     0x376e ./rt-thread/src/ipc.o
+ .debug_info    0x0000000000014d45      0x195 ./rt-thread/src/irq.o
+ .debug_info    0x0000000000014eda     0x17d0 ./rt-thread/src/kservice.o
+ .debug_info    0x00000000000166aa      0x73c ./rt-thread/src/mem.o
+ .debug_info    0x0000000000016de6      0x9f6 ./rt-thread/src/object.o
+ .debug_info    0x00000000000177dc      0x889 ./rt-thread/src/scheduler.o
+ .debug_info    0x0000000000018065     0x10b1 ./rt-thread/src/thread.o
+ .debug_info    0x0000000000019116     0x1054 ./rt-thread/src/timer.o
+ .debug_info    0x000000000001a16a      0x198 ./rt-thread/libcpu/context_gcc.o
+ .debug_info    0x000000000001a302      0x37a ./rt-thread/libcpu/cpuport.o
+ .debug_info    0x000000000001a67c      0x8d9 ./rt-thread/components/drivers/misc/pin.o
+ .debug_info    0x000000000001af55      0x676 ./rt-thread/bsp/drv_gpio.o
+ .debug_info    0x000000000001b5cb      0x6e1 ./board/board.o
+ .debug_info    0x000000000001bcac       0x56 ./applications/startup.o
+
+.debug_abbrev   0x0000000000000000     0x29f2
+ .debug_abbrev  0x0000000000000000       0x21 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .debug_abbrev  0x0000000000000021      0x2d6 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .debug_abbrev  0x00000000000002f7      0x124 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .debug_abbrev  0x000000000000041b       0x78 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+ .debug_abbrev  0x0000000000000493       0xd7 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+ .debug_abbrev  0x000000000000056a       0x44 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .debug_abbrev  0x00000000000005ae       0x2c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+ .debug_abbrev  0x00000000000005da       0xa9 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+ .debug_abbrev  0x0000000000000683      0x10c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .debug_abbrev  0x000000000000078f       0x21 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/_DSP2803x_usDelay.o
+ .debug_abbrev  0x00000000000007b0       0x21 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_unset.o
+ .debug_abbrev  0x00000000000007d1       0x21 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_unset.o
+ .debug_abbrev  0x00000000000007f2      0x194 ./rt-thread/src/clock.o
+ .debug_abbrev  0x0000000000000986      0x1de ./rt-thread/src/components.o
+ .debug_abbrev  0x0000000000000b64      0x203 ./rt-thread/src/device.o
+ .debug_abbrev  0x0000000000000d67      0x294 ./rt-thread/src/idle.o
+ .debug_abbrev  0x0000000000000ffb      0x25c ./rt-thread/src/ipc.o
+ .debug_abbrev  0x0000000000001257      0x10e ./rt-thread/src/irq.o
+ .debug_abbrev  0x0000000000001365      0x355 ./rt-thread/src/kservice.o
+ .debug_abbrev  0x00000000000016ba      0x1d4 ./rt-thread/src/mem.o
+ .debug_abbrev  0x000000000000188e      0x2b6 ./rt-thread/src/object.o
+ .debug_abbrev  0x0000000000001b44      0x272 ./rt-thread/src/scheduler.o
+ .debug_abbrev  0x0000000000001db6      0x2e9 ./rt-thread/src/thread.o
+ .debug_abbrev  0x000000000000209f      0x2db ./rt-thread/src/timer.o
+ .debug_abbrev  0x000000000000237a       0x21 ./rt-thread/libcpu/context_gcc.o
+ .debug_abbrev  0x000000000000239b      0x120 ./rt-thread/libcpu/cpuport.o
+ .debug_abbrev  0x00000000000024bb      0x194 ./rt-thread/components/drivers/misc/pin.o
+ .debug_abbrev  0x000000000000264f      0x18c ./rt-thread/bsp/drv_gpio.o
+ .debug_abbrev  0x00000000000027db      0x1d1 ./board/board.o
+ .debug_abbrev  0x00000000000029ac       0x46 ./applications/startup.o
+
+.debug_aranges  0x0000000000000000       0xa0
+ .debug_aranges
+                0x0000000000000000       0x20 ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .debug_aranges
+                0x0000000000000020       0x20 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/_DSP2803x_usDelay.o
+ .debug_aranges
+                0x0000000000000040       0x20 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_unset.o
+ .debug_aranges
+                0x0000000000000060       0x20 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_unset.o
+ .debug_aranges
+                0x0000000000000080       0x20 ./rt-thread/libcpu/context_gcc.o
+
+.debug_line     0x0000000000000000     0xdb90
+ .debug_line    0x0000000000000000      0x33e ./teramic-drivers/teramic-dsc28034-board/common/crt.o
+ .debug_line    0x000000000000033e     0x1e9a ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .debug_line    0x00000000000021d8      0x253 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .debug_line    0x000000000000242b      0x14b ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+ .debug_line    0x0000000000002576      0x246 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+ .debug_line    0x00000000000027bc      0x6d6 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .debug_line    0x0000000000002e92      0x157 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+ .debug_line    0x0000000000002fe9      0x17f ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+ .debug_line    0x0000000000003168      0x5d4 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .debug_line    0x000000000000373c       0xcc ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/_DSP2803x_usDelay.o
+ .debug_line    0x0000000000003808       0x82 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ier_unset.o
+ .debug_line    0x000000000000388a       0x82 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/ifr_unset.o
+ .debug_line    0x000000000000390c      0x24c ./rt-thread/src/clock.o
+ .debug_line    0x0000000000003b58      0x2a1 ./rt-thread/src/components.o
+ .debug_line    0x0000000000003df9      0x6d0 ./rt-thread/src/device.o
+ .debug_line    0x00000000000044c9      0x390 ./rt-thread/src/idle.o
+ .debug_line    0x0000000000004859     0x38ab ./rt-thread/src/ipc.o
+ .debug_line    0x0000000000008104      0x19d ./rt-thread/src/irq.o
+ .debug_line    0x00000000000082a1     0x1639 ./rt-thread/src/kservice.o
+ .debug_line    0x00000000000098da      0x934 ./rt-thread/src/mem.o
+ .debug_line    0x000000000000a20e      0x7d7 ./rt-thread/src/object.o
+ .debug_line    0x000000000000a9e5      0x6eb ./rt-thread/src/scheduler.o
+ .debug_line    0x000000000000b0d0      0xce0 ./rt-thread/src/thread.o
+ .debug_line    0x000000000000bdb0      0xe2f ./rt-thread/src/timer.o
+ .debug_line    0x000000000000cbdf      0x245 ./rt-thread/libcpu/context_gcc.o
+ .debug_line    0x000000000000ce24      0x1ca ./rt-thread/libcpu/cpuport.o
+ .debug_line    0x000000000000cfee      0x4fb ./rt-thread/components/drivers/misc/pin.o
+ .debug_line    0x000000000000d4e9      0x382 ./rt-thread/bsp/drv_gpio.o
+ .debug_line    0x000000000000d86b      0x2d1 ./board/board.o
+ .debug_line    0x000000000000db3c       0x54 ./applications/startup.o
+
+.debug_loc      0x0000000000000000     0x8e46
+ .debug_loc     0x0000000000000000     0x1e77 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .debug_loc     0x0000000000001e77       0x77 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+ .debug_loc     0x0000000000001eee       0x50 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+ .debug_loc     0x0000000000001f3e       0x41 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .debug_loc     0x0000000000001f7f       0xd9 ./rt-thread/src/clock.o
+ .debug_loc     0x0000000000002058       0x6c ./rt-thread/src/components.o
+ .debug_loc     0x00000000000020c4      0x58f ./rt-thread/src/device.o
+ .debug_loc     0x0000000000002653      0x2a4 ./rt-thread/src/idle.o
+ .debug_loc     0x00000000000028f7     0x2920 ./rt-thread/src/ipc.o
+ .debug_loc     0x0000000000005217       0x51 ./rt-thread/src/irq.o
+ .debug_loc     0x0000000000005268     0x161e ./rt-thread/src/kservice.o
+ .debug_loc     0x0000000000006886      0x514 ./rt-thread/src/mem.o
+ .debug_loc     0x0000000000006d9a      0x5ee ./rt-thread/src/object.o
+ .debug_loc     0x0000000000007388      0x2eb ./rt-thread/src/scheduler.o
+ .debug_loc     0x0000000000007673      0x83c ./rt-thread/src/thread.o
+ .debug_loc     0x0000000000007eaf      0x73e ./rt-thread/src/timer.o
+ .debug_loc     0x00000000000085ed      0x106 ./rt-thread/libcpu/cpuport.o
+ .debug_loc     0x00000000000086f3      0x51d ./rt-thread/components/drivers/misc/pin.o
+ .debug_loc     0x0000000000008c10      0x236 ./rt-thread/bsp/drv_gpio.o
+
+.debug_ranges   0x0000000000000000     0x1538
+ .debug_ranges  0x0000000000000000      0x258 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .debug_ranges  0x0000000000000258       0x18 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+ .debug_ranges  0x0000000000000270      0x200 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .debug_ranges  0x0000000000000470       0x18 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+ .debug_ranges  0x0000000000000488       0x68 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .debug_ranges  0x00000000000004f0       0x38 ./rt-thread/src/clock.o
+ .debug_ranges  0x0000000000000528       0x58 ./rt-thread/src/components.o
+ .debug_ranges  0x0000000000000580       0x70 ./rt-thread/src/device.o
+ .debug_ranges  0x00000000000005f0       0x58 ./rt-thread/src/idle.o
+ .debug_ranges  0x0000000000000648      0x6c0 ./rt-thread/src/ipc.o
+ .debug_ranges  0x0000000000000d08       0x30 ./rt-thread/src/irq.o
+ .debug_ranges  0x0000000000000d38      0x1e0 ./rt-thread/src/kservice.o
+ .debug_ranges  0x0000000000000f18       0x38 ./rt-thread/src/mem.o
+ .debug_ranges  0x0000000000000f50       0xe0 ./rt-thread/src/object.o
+ .debug_ranges  0x0000000000001030       0xd0 ./rt-thread/src/scheduler.o
+ .debug_ranges  0x0000000000001100      0x100 ./rt-thread/src/thread.o
+ .debug_ranges  0x0000000000001200      0x268 ./rt-thread/src/timer.o
+ .debug_ranges  0x0000000000001468       0x20 ./rt-thread/libcpu/cpuport.o
+ .debug_ranges  0x0000000000001488       0x60 ./rt-thread/components/drivers/misc/pin.o
+ .debug_ranges  0x00000000000014e8       0x30 ./rt-thread/bsp/drv_gpio.o
+ .debug_ranges  0x0000000000001518       0x20 ./board/board.o
+
+.debug_str      0x0000000000000000     0x83a5
+ .debug_str     0x0000000000000000      0x3bd ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+                                        0x4ce (size before relaxing)
+ .debug_str     0x00000000000003bd     0x5867 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+                                       0x5d0d (size before relaxing)
+ .debug_str     0x0000000000005c24       0x59 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+                                        0x12b (size before relaxing)
+ .debug_str     0x0000000000005c7d       0xe3 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+                                        0x253 (size before relaxing)
+ .debug_str     0x0000000000005d60      0x34c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+                                        0x3d9 (size before relaxing)
+ .debug_str     0x00000000000060ac       0x71 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+                                         0xfe (size before relaxing)
+ .debug_str     0x000000000000611d       0x82 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+                                        0x522 (size before relaxing)
+ .debug_str     0x000000000000619f       0xda ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+                                        0x1af (size before relaxing)
+ .debug_str     0x0000000000006279      0x211 ./rt-thread/src/clock.o
+                                        0x356 (size before relaxing)
+ .debug_str     0x000000000000648a      0x1c8 ./rt-thread/src/components.o
+                                        0x455 (size before relaxing)
+ .debug_str     0x0000000000006652      0x658 ./rt-thread/src/device.o
+                                        0x82a (size before relaxing)
+ .debug_str     0x0000000000006caa      0x179 ./rt-thread/src/idle.o
+                                        0x48d (size before relaxing)
+ .debug_str     0x0000000000006e23      0x4f1 ./rt-thread/src/ipc.o
+                                        0xa18 (size before relaxing)
+ .debug_str     0x0000000000007314       0xb5 ./rt-thread/src/irq.o
+                                        0x1c2 (size before relaxing)
+ .debug_str     0x00000000000073c9      0x3f3 ./rt-thread/src/kservice.o
+                                        0xbc7 (size before relaxing)
+ .debug_str     0x00000000000077bc       0xaa ./rt-thread/src/mem.o
+                                        0x4b4 (size before relaxing)
+ .debug_str     0x0000000000007866      0x2bf ./rt-thread/src/object.o
+                                        0x6f3 (size before relaxing)
+ .debug_str     0x0000000000007b25      0x1ef ./rt-thread/src/scheduler.o
+                                        0x5bd (size before relaxing)
+ .debug_str     0x0000000000007d14      0x1ba ./rt-thread/src/thread.o
+                                        0x806 (size before relaxing)
+ .debug_str     0x0000000000007ece      0x17c ./rt-thread/src/timer.o
+                                        0x7a9 (size before relaxing)
+ .debug_str     0x000000000000804a      0x110 ./rt-thread/libcpu/cpuport.o
+                                        0x297 (size before relaxing)
+ .debug_str     0x000000000000815a      0x10a ./rt-thread/components/drivers/misc/pin.o
+                                        0x69d (size before relaxing)
+ .debug_str     0x0000000000008264       0xcd ./rt-thread/bsp/drv_gpio.o
+                                        0x62d (size before relaxing)
+ .debug_str     0x0000000000008331       0x5a ./board/board.o
+                                        0x6ed (size before relaxing)
+ .debug_str     0x000000000000838b       0x1a ./applications/startup.o
+                                         0xc4 (size before relaxing)
+
+.comment        0x0000000000000000       0x7a
+ .comment       0x0000000000000000       0x69 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+                                         0x6a (size before relaxing)
+ .comment       0x0000000000000069       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .comment       0x0000000000000069       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+ .comment       0x0000000000000069       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+ .comment       0x0000000000000069       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .comment       0x0000000000000069       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+ .comment       0x0000000000000069       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+ .comment       0x0000000000000069       0x6a ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/clock.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/components.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/device.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/idle.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/ipc.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/irq.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/kservice.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/mem.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/object.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/scheduler.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/thread.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/src/timer.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/libcpu/cpuport.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/components/drivers/misc/pin.o
+ .comment       0x0000000000000069       0x6a ./rt-thread/bsp/drv_gpio.o
+ .comment       0x0000000000000069       0x6a ./board/board.o
+ .comment       0x0000000000000069       0x6a ./applications/startup.o
+ .comment       0x0000000000000069       0x11 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+                                         0x12 (size before relaxing)
+ .comment       0x000000000000007a       0x6a ../lib\libDSC28034_init_call.a(DSC28034_init_call.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/clock.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/components.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/device.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/idle.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/ipc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/irq.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/kservice.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/mem.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/object.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/scheduler.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/thread.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/src/timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/libcpu/cpuport.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/components/drivers/misc/pin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./rt-thread/bsp/drv_gpio.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./board/board.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./applications/startup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../lib\libDSC28034_init_call.a(DSC28034_init_call.o)
+
+.riscv.attributes
+                0x0000000000000000       0x2b
+ .riscv.attributes
+                0x0000000000000000       0x26 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .riscv.attributes
+                0x0000000000000026       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_headers/source/DSP2803x_GlobalVariableDefs.o
+ .riscv.attributes
+                0x000000000000004c       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+ .riscv.attributes
+                0x0000000000000072       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+ .riscv.attributes
+                0x0000000000000098       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .riscv.attributes
+                0x00000000000000be       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+ .riscv.attributes
+                0x00000000000000e4       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+ .riscv.attributes
+                0x000000000000010a       0x26 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .riscv.attributes
+                0x0000000000000130       0x26 ./rt-thread/src/clock.o
+ .riscv.attributes
+                0x0000000000000156       0x26 ./rt-thread/src/components.o
+ .riscv.attributes
+                0x000000000000017c       0x26 ./rt-thread/src/device.o
+ .riscv.attributes
+                0x00000000000001a2       0x26 ./rt-thread/src/idle.o
+ .riscv.attributes
+                0x00000000000001c8       0x26 ./rt-thread/src/ipc.o
+ .riscv.attributes
+                0x00000000000001ee       0x26 ./rt-thread/src/irq.o
+ .riscv.attributes
+                0x0000000000000214       0x26 ./rt-thread/src/kservice.o
+ .riscv.attributes
+                0x000000000000023a       0x26 ./rt-thread/src/mem.o
+ .riscv.attributes
+                0x0000000000000260       0x26 ./rt-thread/src/object.o
+ .riscv.attributes
+                0x0000000000000286       0x26 ./rt-thread/src/scheduler.o
+ .riscv.attributes
+                0x00000000000002ac       0x26 ./rt-thread/src/thread.o
+ .riscv.attributes
+                0x00000000000002d2       0x26 ./rt-thread/src/timer.o
+ .riscv.attributes
+                0x00000000000002f8       0x26 ./rt-thread/libcpu/cpuport.o
+ .riscv.attributes
+                0x000000000000031e       0x26 ./rt-thread/components/drivers/misc/pin.o
+ .riscv.attributes
+                0x0000000000000344       0x26 ./rt-thread/bsp/drv_gpio.o
+ .riscv.attributes
+                0x000000000000036a       0x26 ./board/board.o
+ .riscv.attributes
+                0x0000000000000390       0x26 ./applications/startup.o
+ .riscv.attributes
+                0x00000000000003b6       0x24 ../lib\libteramic-dsc28034-segger_lib_imc.a(compilerasmops_rv.o)
+ .riscv.attributes
+                0x00000000000003da       0x24 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .riscv.attributes
+                0x00000000000003fe       0x24 ../lib\libteramic-dsc28034-segger_lib_imc.a(strasmops_rv.o)
+ .riscv.attributes
+                0x0000000000000422       0x26 ../lib\libteramic-dsc28034-segger_lib_imc.a(strops.o)
+ .riscv.attributes
+                0x0000000000000448       0x2b ../lib\libDSC28034_init_call.a(DSC28034_init_call.o)
+
+.debug_frame    0x0000000000000000     0x2244
+ .debug_frame   0x0000000000000000      0x348 ./teramic-drivers/teramic-dsc28034-board/common/syscalls.o
+ .debug_frame   0x0000000000000348       0x24 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CSMPasswords.o
+ .debug_frame   0x000000000000036c       0x3c ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_CpuTimers.o
+ .debug_frame   0x00000000000003a8      0x404 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_DefaultIsr.o
+ .debug_frame   0x00000000000007ac       0x34 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieCtrl.o
+ .debug_frame   0x00000000000007e0       0x24 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_PieVect.o
+ .debug_frame   0x0000000000000804       0xe8 ./teramic-drivers/teramic-dsc28034-board/DSP2803x_common/source/DSP2803x_SysCtrl.o
+ .debug_frame   0x00000000000008ec       0x84 ./rt-thread/src/clock.o
+ .debug_frame   0x0000000000000970       0xf0 ./rt-thread/src/components.o
+ .debug_frame   0x0000000000000a60      0x174 ./rt-thread/src/device.o
+ .debug_frame   0x0000000000000bd4       0xc4 ./rt-thread/src/idle.o
+ .debug_frame   0x0000000000000c98      0x538 ./rt-thread/src/ipc.o
+ .debug_frame   0x00000000000011d0       0x7c ./rt-thread/src/irq.o
+ .debug_frame   0x000000000000124c      0x32c ./rt-thread/src/kservice.o
+ .debug_frame   0x0000000000001578       0xc4 ./rt-thread/src/mem.o
+ .debug_frame   0x000000000000163c      0x174 ./rt-thread/src/object.o
+ .debug_frame   0x00000000000017b0       0xec ./rt-thread/src/scheduler.o
+ .debug_frame   0x000000000000189c      0x234 ./rt-thread/src/thread.o
+ .debug_frame   0x0000000000001ad0      0x1d0 ./rt-thread/src/timer.o
+ .debug_frame   0x0000000000001ca0       0x50 ./rt-thread/libcpu/cpuport.o
+ .debug_frame   0x0000000000001cf0      0x14c ./rt-thread/components/drivers/misc/pin.o
+ .debug_frame   0x0000000000001e3c       0x6c ./rt-thread/bsp/drv_gpio.o
+ .debug_frame   0x0000000000001ea8       0x78 ./board/board.o
+ .debug_frame   0x0000000000001f20       0x24 ./applications/startup.o
+ .debug_frame   0x0000000000001f44       0x40 ../lib\libteramic-dsc28034-segger_lib_imc.a(compilerasmops_rv.o)
+ .debug_frame   0x0000000000001f84      0x270 ../lib\libteramic-dsc28034-segger_lib_imc.a(floatasmops_rv.o)
+ .debug_frame   0x00000000000021f4       0x50 ../lib\libteramic-dsc28034-segger_lib_imc.a(strasmops_rv.o)
