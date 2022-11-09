@@ -4,6 +4,8 @@
 #include <syscalls.h>
 #include "drv_gpio.h"
 
+extern int rt_hw_sci_init(void);
+
 __interrupt void cpu_timer2_isr(void)
 {
     CpuTimer2Regs.TCR.all = 0xC000;
@@ -14,8 +16,6 @@ __interrupt void cpu_timer2_isr(void)
 
     rt_interrupt_leave();
 }
-
-
 
 void rt_hw_board_init()
 {
@@ -41,7 +41,7 @@ void rt_hw_board_init()
     InitCpuTimers();
     ConfigCpuTimer(&CpuTimer2, 200, 1000000 / RT_TICK_PER_SECOND);
     CpuTimer2Regs.TCR.all = 0x4000;
-    //IER |= M_INT14;
+    IER |= M_INT14;
     //IER |= M_INT1;
 
 	//EINT;
