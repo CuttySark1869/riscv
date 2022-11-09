@@ -61,6 +61,8 @@
 #define RT_MAIN_THREAD_STACK_SIZE 2048
 #define RT_MAIN_THREAD_PRIORITY 10
 
+#define RT_USING_SERIAL
+
 /* Device Drivers */
 
 #define RT_USING_PIN
