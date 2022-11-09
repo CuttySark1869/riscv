@@ -17,13 +17,14 @@
 
 int main(void)
 {
-    volatile unsigned long x=10000;
+    volatile unsigned long x=100000000;
 
     while(x)
     {
-        //x--;
-        x++;
+        x--;
     }
+
+    x = 100000000;
 }
 
 /*@}*/
