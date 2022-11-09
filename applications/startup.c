@@ -17,7 +17,7 @@
 
 int main(void)
 {
-    unsigned long x=10000;
+    volatile unsigned long x=10000;
 
     while(x)
     {
