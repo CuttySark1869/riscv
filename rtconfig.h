@@ -52,7 +52,7 @@
 #define RT_VER_NUM 0x50000
 #define ARCH_TIDSP
 #define ARCH_TIDSP_C28X
-#define ARCH_CPU_STACK_GROWS_UPWARD
+//#define ARCH_CPU_STACK_GROWS_UPWARD
 
 /* RT-Thread Components */
 

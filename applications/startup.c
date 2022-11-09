@@ -21,7 +21,8 @@ int main(void)
 
     while(x)
     {
-        x--;
+        //x--;
+        x++;
     }
 }
 

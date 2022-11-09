@@ -41,10 +41,10 @@ void rt_hw_board_init()
     InitCpuTimers();
     ConfigCpuTimer(&CpuTimer2, 200, 1000000 / RT_TICK_PER_SECOND);
     CpuTimer2Regs.TCR.all = 0x4000;
-    IER |= M_INT14;
-    IER |= M_INT1;
+    //IER |= M_INT14;
+    //IER |= M_INT1;
 
-	EINT;
+	//EINT;
 	ERTM;
 #ifdef RT_USING_HEAP
     rt_system_heap_init((void*)(0x14000), (void*)(0x18000));
