@@ -5,16 +5,23 @@
 #include "drv_gpio.h"
 
 extern int rt_hw_sci_init(void);
+extern rt_base_t rt_hw_save_context(void);
+extern void rt_hw_restore_context(rt_base_t);
 
 __interrupt void cpu_timer2_isr(void)
 {
-    CpuTimer2Regs.TCR.all = 0xC000;
+	rt_base_t context;
+
+	CpuTimer2Regs.TCR.all = 0xC000;
+	context = rt_hw_save_context();
 
     rt_interrupt_enter();
 
     rt_tick_increase();
 
     rt_interrupt_leave();
+
+    rt_hw_restore_context(context);
 }
 
 void rt_hw_board_init()

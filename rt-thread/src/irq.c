@@ -119,6 +119,7 @@ RT_WEAK void rt_interrupt_leave(void)
     {
         if(~rt_interrupt_nest)
         {
+        	rt_thread_switch_interrupt_flag = 0;
         	rt_hw_context_switch(rt_interrupt_from_thread, rt_interrupt_to_thread);
         }
     }

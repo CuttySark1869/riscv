@@ -19,7 +19,7 @@ void thread1_entry(void* parameter)
 {
 	while(1)
 	{
-		rt_thread_yield();
+		//rt_thread_yield();
 	}
 }
 
@@ -27,13 +27,13 @@ void thread2_entry(void* parameter)
 {
 	while(1)
 	{
-		rt_thread_yield();
+		//rt_thread_yield();
 	}
 }
 
 int main(void)
 {
-    volatile unsigned long x=100000000;
+    volatile unsigned long x=100000;
     rt_thread_t thread1=NULL,thread2=NULL;
 
     rt_uint32_t para1=0,para2=0;
